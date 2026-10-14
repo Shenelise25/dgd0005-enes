@@ -51,8 +51,6 @@ Topun `Update` metodunun ilk satırı `if (!IsServerInitialized) return;` olur.
 
 Bu tasarım tablosu, top ve skor kodundan önce ayrı commit olarak kaydedilmiştir.
 
-## Aşamalar
-
 ## Step 8
 
 1. Tüm gözlemcilere vuruş sesi için ObserversRpc; yalnız bir istemciye “not your serve” için TargetRpc kullanılır.
@@ -62,6 +60,22 @@ Bu tasarım tablosu, top ve skor kodundan önce ayrı commit olarak kaydedilmiş
 ## Notes Section 14
 
 On sorunun açıklamalı cevapları: [SELF_REVIEW.md](SELF_REVIEW.md).
+
+## Step 10 - Bytes and tick rate
+
+| Tick rate | Server out B/s (rally) | Ball in a client window | Other paddle |
+|---|---|---|---|
+| 10 | Ölçülmedi | Gözlem bekliyor | Gözlem bekliyor |
+| 30 | Ölçülmedi | Gözlem bekliyor | Gözlem bekliyor |
+| 60 | Ölçülmedi | Gözlem bekliyor | Gözlem bekliyor |
+
+Ölçüm: aynı istemci sayısıyla, servis sonrası rally sürerken 10 saniye bekleyip HUD'daki Server out değerini oku; üç oran için tekrarla. Teslim ayarı **30**.
+
+Teorik beklenti (ölçüm sonucu değildir): 60 tick, daha sık paket gönderimi ve daha fazla bant genişliği maliyeti getirir. Karşılığında konumlar daha sık güncellenir ve interpolation gecikmesi tick başına kısalır. Kendi raketin yerelde her kare hareket ederken top sunucudan gelen örnekleri izlediği için düşük tick'te topun gecikmesi/adımlaması kendi raketini oynatan oyuncuda da görünür.
+
+## İkinci partner buluşması
+
+Servis, rally, gol ve maç ortasında bağlantıyı kesip yeniden bağlanma: **gerçek iki bilgisayarda yapılacak**.
 
 ## Uygulama sırası
 

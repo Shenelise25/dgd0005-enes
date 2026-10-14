@@ -1,0 +1,13 @@
+{
+  "no_runtime_exceptions": true,
+  "roles": true,
+  "one_ball_after_spawn": true,
+  "goals_replicated": true,
+  "feed_capped_at_six": true,
+  "spectator_no_private_serve_notice": true,
+  "both_players_private_notices": true,
+  "wrong_serve_rejected": true,
+  "graceful_disconnect": true,
+  "late_join_current_state": true,
+  "remote_paddle_position": true
+}

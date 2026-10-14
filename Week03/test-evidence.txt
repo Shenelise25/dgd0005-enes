@@ -1,0 +1,143 @@
+SERVER
+SMOKE t=0,0 server=True local=-1 score=0:0 serve=0 balls=1 inplay=False feed=0 paddles=
+SMOKE t=1,0 server=True local=-1 score=0:0 serve=0 balls=1 inplay=False feed=0 paddles=
+SMOKE t=37,0 server=True local=-1 score=7:7 serve=0 balls=1 inplay=True feed=6 paddles=0:3,75;2:0,00;1:3,89
+SMOKE t=38,0 server=True local=-1 score=8:7 serve=1 balls=1 inplay=True feed=6 paddles=0:-3,89;2:0,00;1:-3,73
+[Server] Started
+[Server] client 0: Started; clients: 1
+[Server] client 0: LEFT
+[Server] Client 0 joined: LEFT
+[Server] client 1: Started; clients: 2
+[Server] client 1: RIGHT
+[Server] Client 1 joined: RIGHT
+[Server] client 2: Started; clients: 3
+[Server] client 2: SPECTATOR
+[Server] Client 2 joined: SPECTATOR
+[Server] LEFT served
+[Server] LEFT scored! 1 : 0
+[Server] RIGHT served
+[Server] RIGHT scored! 1 : 1
+[Server] LEFT served
+[Server] LEFT scored! 2 : 1
+[Server] RIGHT served
+[Server] RIGHT scored! 2 : 2
+[Server] LEFT served
+[Server] LEFT scored! 3 : 2
+[Server] RIGHT served
+[Server] client 1: Stopped; clients: 3
+[Server] Client 1 left: RIGHT
+[Server] RIGHT scored! 3 : 3
+[Server] LEFT served
+[Server] LEFT scored! 4 : 3
+[Server] client 3: Started; clients: 3
+[Server] client 3: RIGHT
+[Server] Client 3 joined: RIGHT
+[Server] RIGHT served
+[Server] RIGHT scored! 4 : 4
+[Server] LEFT served
+[Server] LEFT scored! 5 : 4
+[Server] RIGHT served
+[Server] RIGHT scored! 5 : 5
+[Server] LEFT served
+[Server] LEFT scored! 6 : 5
+[Server] RIGHT served
+[Server] RIGHT scored! 6 : 6
+[Server] LEFT served
+[Server] LEFT scored! 7 : 6
+[Server] RIGHT served
+[Server] RIGHT scored! 7 : 7
+[Server] LEFT served
+[Server] LEFT scored! 8 : 7
+[Server] RIGHT served
+
+LEFT
+SMOKE t=0,0 server=False local=-1 score=0:0 serve=0 balls=0 inplay=False feed=0 paddles=
+SMOKE t=1,0 server=False local=0 score=0:0 serve=0 balls=1 inplay=False feed=1 paddles=0:-3,72
+SMOKE t=35,0 server=False local=0 score=7:7 serve=0 balls=1 inplay=True feed=6 paddles=0:3,75;2:0,00;1:3,89
+SMOKE t=36,0 server=False local=0 score=8:7 serve=1 balls=1 inplay=True feed=6 paddles=0:-3,90;2:0,00;1:-3,72
+[Client] Started
+[Client] I am client 0, side LEFT
+[Client] Flash: LEFT scored! 1 : 0
+[Client] Flash: RIGHT scored! 1 : 1
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 2 : 1
+[Client] Flash: RIGHT scored! 2 : 2
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 3 : 2
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 4 : 3
+[Client] Flash: RIGHT scored! 4 : 4
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 5 : 4
+[Client] Flash: RIGHT scored! 5 : 5
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 6 : 5
+[Client] Flash: RIGHT scored! 6 : 6
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 7 : 6
+[Client] Flash: RIGHT scored! 7 : 7
+[Client] Flash: YOU SERVE
+[Client] Flash: LEFT scored! 8 : 7
+
+RIGHT
+SMOKE t=0,0 server=False local=-1 score=0:0 serve=0 balls=0 inplay=False feed=0 paddles=
+SMOKE t=1,0 server=False local=1 score=0:0 serve=0 balls=1 inplay=False feed=2 paddles=0:-3,77;1:-3,72
+SMOKE t=10,0 server=False local=1 score=2:1 serve=1 balls=1 inplay=True feed=6 paddles=0:-3,86;1:-3,86;2:0,00
+SMOKE t=11,0 server=False local=1 score=2:2 serve=0 balls=1 inplay=True feed=6 paddles=0:-3,76;1:-3,90;2:0,00
+[Client] Started
+[Client] I am client 1, side RIGHT
+SMOKE_WRONG_SERVE_SENT
+[Client] Flash: LEFT scored! 1 : 0
+[Client] Flash: YOU SERVE
+[Client] Flash: RIGHT scored! 1 : 1
+[Client] Flash: LEFT scored! 2 : 1
+[Client] Flash: YOU SERVE
+[Client] Flash: RIGHT scored! 2 : 2
+[Client] Flash: LEFT scored! 3 : 2
+[Client] Flash: YOU SERVE
+[Client] Stopping
+SMOKE_GRACEFUL_DISCONNECT
+[Client] Stopped
+
+SPECTATOR
+SMOKE t=0,0 server=False local=-1 score=0:0 serve=0 balls=0 inplay=False feed=0 paddles=
+SMOKE t=1,0 server=False local=2 score=0:0 serve=0 balls=1 inplay=False feed=3 paddles=0:-3,89;1:-3,77;2:0,00
+SMOKE t=31,0 server=False local=2 score=7:7 serve=0 balls=1 inplay=True feed=6 paddles=0:3,76;2:0,00;1:3,89
+SMOKE t=32,0 server=False local=2 score=8:7 serve=1 balls=1 inplay=True feed=6 paddles=0:-3,89;2:0,00;1:-3,72
+[Client] Started
+[Client] I am client 2, side SPECTATOR
+[Client] Flash: LEFT scored! 1 : 0
+[Client] Flash: RIGHT scored! 1 : 1
+[Client] Flash: LEFT scored! 2 : 1
+[Client] Flash: RIGHT scored! 2 : 2
+[Client] Flash: LEFT scored! 3 : 2
+[Client] Flash: LEFT scored! 4 : 3
+[Client] Flash: RIGHT scored! 4 : 4
+[Client] Flash: LEFT scored! 5 : 4
+[Client] Flash: RIGHT scored! 5 : 5
+[Client] Flash: LEFT scored! 6 : 5
+[Client] Flash: RIGHT scored! 6 : 6
+[Client] Flash: LEFT scored! 7 : 6
+[Client] Flash: RIGHT scored! 7 : 7
+[Client] Flash: LEFT scored! 8 : 7
+
+RECONNECT
+SMOKE t=0,0 server=False local=-1 score=0:0 serve=0 balls=0 inplay=False feed=0 paddles=
+SMOKE t=1,0 server=False local=1 score=4:3 serve=1 balls=1 inplay=True feed=6 paddles=0:3,80;2:0,00;1:3,88
+SMOKE t=14,0 server=False local=1 score=7:7 serve=0 balls=1 inplay=True feed=6 paddles=0:3,76;2:0,00;1:3,90
+SMOKE t=15,0 server=False local=1 score=8:7 serve=1 balls=1 inplay=True feed=6 paddles=0:-3,89;2:0,00;1:-3,74
+[Client] Started
+[Client] I am client 3, side RIGHT
+SMOKE_WRONG_SERVE_SENT
+[Client] Flash: RIGHT scored! 4 : 4
+[Client] Flash: LEFT scored! 5 : 4
+[Client] Flash: YOU SERVE
+[Client] Flash: RIGHT scored! 5 : 5
+[Client] Flash: LEFT scored! 6 : 5
+[Client] Flash: YOU SERVE
+[Client] Flash: RIGHT scored! 6 : 6
+[Client] Flash: LEFT scored! 7 : 6
+[Client] Flash: YOU SERVE
+[Client] Flash: RIGHT scored! 7 : 7
+[Client] Flash: LEFT scored! 8 : 7
+[Client] Flash: YOU SERVE
