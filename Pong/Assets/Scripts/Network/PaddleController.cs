@@ -22,6 +22,7 @@ public class PaddleController : NetworkBehaviour
         Side.Value = !left ? 0 : !right ? 1 : 2;
         Place();
         Debug.Log($"[Server] client {OwnerId}: {SideName(Side.Value)}");
+        GameState.Announce($"Client {OwnerId} joined: {SideName(Side.Value)}");
     }
     public override void OnStartClient()
     {
@@ -29,7 +30,11 @@ public class PaddleController : NetworkBehaviour
         if (IsOwner) { Local = this; Debug.Log($"[Client] I am client {OwnerId}, side {SideName(Side.Value)}"); }
         Place();
     }
-    public override void OnStopServer() => All.Remove(this);
+    public override void OnStopServer()
+    {
+        GameState.Announce($"Client {OwnerId} left: {SideName(Side.Value)}");
+        All.Remove(this);
+    }
     public override void OnStopClient() { All.Remove(this); if (Local == this) Local = null; }
     private void SideChanged(int previous, int next, bool asServer) => Place();
     public static string SideName(int side) => side == 0 ? "LEFT" : side == 1 ? "RIGHT" : "SPECTATOR";
@@ -60,6 +65,7 @@ public class PaddleController : NetworkBehaviour
         if (state == null || ball == null || Side.Value == 2) return;
         if (Side.Value != state.ServingSide.Value || ball.InPlay.Value) return;
         ball.Serve(1-Side.Value);
+        GameState.Announce($"{SideName(Side.Value)} served");
     }
     [ObserversRpc]
     public void AnnounceGoal(int left, int right)
