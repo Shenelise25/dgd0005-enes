@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using FishNet.Connection;
 using FishNet.Object;
 using FishNet.Object.Synchronizing;
 using UnityEngine;
@@ -49,5 +50,20 @@ public class PaddleController : NetworkBehaviour
                         - (kb.sKey.isPressed || kb.downArrowKey.isPressed ? 1f : 0f);
         transform.position += Vector3.forward * direction * speed * Time.deltaTime;
         Court.ClampPaddle(transform);
+        if (kb.spaceKey.wasPressedThisFrame) RequestServe();
     }
+    [ServerRpc]
+    public void RequestServe()
+    {
+        var state = GameState.Instance;
+        var ball = NetworkBall.Instance;
+        if (state == null || ball == null || Side.Value == 2) return;
+        if (Side.Value != state.ServingSide.Value || ball.InPlay.Value) return;
+        ball.Serve(1-Side.Value);
+    }
+    [ObserversRpc]
+    public void AnnounceGoal(int left, int right)
+        => ConnectionHud.Flash($"{SideName(Side.Value)} scored! {left} : {right}");
+    [TargetRpc]
+    public void YouServe(NetworkConnection target) => ConnectionHud.Flash("YOU SERVE");
 }

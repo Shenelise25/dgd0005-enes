@@ -53,6 +53,18 @@ Bu tasarım tablosu, top ve skor kodundan önce ayrı commit olarak kaydedilmiş
 
 ## Aşamalar
 
+## Step 8
+
+1. Tüm gözlemcilere vuruş sesi için ObserversRpc; yalnız bir istemciye “not your serve” için TargetRpc kullanılır.
+2. Skor GameState üzerindeki LeftScore ve RightScore SyncVar'larında tutulur; yalnız sunucu değiştirir.
+3. Sunucu vuruşu kendi raket kopyasına göre hesaplar. Bu kopya oyuncunun yerel raketinden ağ gecikmesi kadar geridedir; istemcide farklı görüntü görülebilir.
+
+## Notes Section 14
+
+On sorunun açıklamalı cevapları: [SELF_REVIEW.md](SELF_REVIEW.md).
+
+## Uygulama sırası
+
 0. Unity 6000.3.2f1 Universal 3D projesi, FishNet ve Multiplayer Play Mode.
 1. Pong-Start sahnesinde tek bilgisayarda iki raket; sonra Pong sahnesi.
 2. NetworkManager / Tugboat 7770 / localhost; Start On Headless kapalı.

@@ -19,5 +19,9 @@ public class GameState : NetworkBehaviour
         if (!IsServerInitialized || (scorerSide != 0 && scorerSide != 1)) return;
         if (scorerSide == 0) LeftScore.Value++; else RightScore.Value++;
         ServingSide.Value = 1-scorerSide;
+        var scorer = PaddleController.All.Find(p => p != null && p.IsServerInitialized && p.Side.Value == scorerSide);
+        var conceder = PaddleController.All.Find(p => p != null && p.IsServerInitialized && p.Side.Value == ServingSide.Value);
+        if (scorer != null) scorer.AnnounceGoal(LeftScore.Value,RightScore.Value);
+        if (conceder != null && conceder.Owner.IsActive) conceder.YouServe(conceder.Owner);
     }
 }
