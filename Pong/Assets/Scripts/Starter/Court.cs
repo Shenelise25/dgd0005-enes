@@ -58,9 +58,17 @@ public class Court : MonoBehaviour
     /// Colours a primitive without creating a material per object.
     public static void Paint(GameObject go, Color color)
     {
+        // A headless server has no graphics device and does not need materials.
+        if (SystemInfo.graphicsDeviceType == UnityEngine.Rendering.GraphicsDeviceType.Null) return;
         Renderer r = go.GetComponent<Renderer>();
         if (r == null) return;
-        if (_mat == null) _mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));   // flat colours: works with the 3D and the 2D URP renderer alike
-        r.material = new Material(_mat) { color = color };
+        // A Resources reference keeps the shader in standalone builds.
+        if (_mat == null) _mat = Resources.Load<Material>("PongUnlit");
+        if (_mat == null) _mat = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
+        r.sharedMaterial = _mat;
+        var properties = new MaterialPropertyBlock();
+        r.GetPropertyBlock(properties);
+        properties.SetColor("_BaseColor", color);
+        r.SetPropertyBlock(properties);
     }
 }

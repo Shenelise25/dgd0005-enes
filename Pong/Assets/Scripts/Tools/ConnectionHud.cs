@@ -21,12 +21,26 @@ public class ConnectionHud : MonoBehaviour
     // The 4.7.3 tag exposes the traffic event but its direction fields are internal.
     private static readonly FieldInfo inbound = typeof(BidirectionalNetworkTraffic).GetField("InboundTraffic", BindingFlags.Instance | BindingFlags.NonPublic);
     private static readonly FieldInfo outbound = typeof(BidirectionalNetworkTraffic).GetField("OutboundTraffic", BindingFlags.Instance | BindingFlags.NonPublic);
-    public static void Flash(string message) => flashes.Add((message, Time.unscaledTime + 4f));
+    public static void Flash(string message)
+    {
+        flashes.Add((message, Time.unscaledTime + 4f));
+        Debug.Log("[Client] Flash: " + message);
+    }
     private void Start()
     {
         manager = InstanceFinder.NetworkManager;
         sampleStart = Time.unscaledTime;
         if (manager.StatisticsManager.TryGetNetworkTrafficStatistics(out traffic)) traffic.OnNetworkTraffic += Traffic;
+    }
+    private void LateUpdate()
+    {
+        // Keep the connection panel beside the court instead of covering the left paddle.
+        Camera camera = Camera.main;
+        if (camera == null || Screen.height == 0) return;
+        float left = Mathf.Min(350f / Screen.width, .45f);
+        camera.rect = new Rect(left,0,1-left,1);
+        float courtAspect = Screen.width * (1-left) / Screen.height;
+        camera.orthographicSize = Mathf.Max(6f,9f/courtAspect);
     }
     private static ulong Bytes(BidirectionalNetworkTraffic data, FieldInfo direction)
     {

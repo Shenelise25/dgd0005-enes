@@ -12,12 +12,14 @@ public class ServerBootstrap : MonoBehaviour
     private void Start()
     {
         Application.runInBackground = true;
-        bool server = Application.isBatchMode || Environment.GetCommandLineArgs().Contains("-server");
+        Application.targetFrameRate = 60;
+        bool client = Environment.GetCommandLineArgs().Contains("-client");
+        bool server = !client && (Application.isBatchMode || Environment.GetCommandLineArgs().Contains("-server"));
 #if UNITY_EDITOR
         server |= CurrentPlayer.ReadOnlyTags().Contains("Server");
 #endif
         if (server) InstanceFinder.ServerManager.StartConnection();
-        else if (Environment.GetCommandLineArgs().Contains("-client"))
+        else if (client)
             InstanceFinder.ClientManager.StartConnection("127.0.0.1", 7770);
     }
 }

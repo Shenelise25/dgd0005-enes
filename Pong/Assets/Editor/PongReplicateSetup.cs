@@ -34,6 +34,19 @@ public static class PongReplicateSetup
     }
     public static void BuildPlayer()
     {
+        System.IO.Directory.CreateDirectory("Assets/Resources");
+        if (AssetDatabase.LoadAssetAtPath<Material>("Assets/Resources/PongUnlit.mat") == null)
+            AssetDatabase.CreateAsset(new Material(Shader.Find("Universal Render Pipeline/Unlit")),"Assets/Resources/PongUnlit.mat");
+        PlayerSettings.SetStackTraceLogType(LogType.Log,StackTraceLogType.None);
+        EditorSceneManager.OpenScene("Assets/Scenes/Pong.unity");
+        // Persist unique scene identities before the build; batch creation has no editor delay loop.
+        foreach (var nob in Object.FindObjectsByType<NetworkObject>(FindObjectsSortMode.None))
+        {
+            if (nob.gameObject.name == "Court") nob.SetSceneId(1001);
+            else if (nob.gameObject.name == "GameState") nob.SetSceneId(1002);
+            EditorUtility.SetDirty(nob);
+        }
+        EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         var result = BuildPipeline.BuildPlayer(new BuildPlayerOptions {
             scenes = new[]{"Assets/Scenes/Pong.unity"},
             locationPathName = "Builds/Windows/Pong.exe", target = BuildTarget.StandaloneWindows64,
