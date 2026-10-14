@@ -33,6 +33,24 @@ Gerçek ikinci bilgisayar / ortak hotspot deneyi henüz yapılmadı. Loopback te
 | Enes sunucu → partner istemci | Bekliyor | Bekliyor | Yerelde doldur | Bekliyor | Ölçülmedi | Test edilmedi |
 | Partner sunucu → Enes istemci | Bekliyor | Bekliyor | Yerelde doldur | Bekliyor | Ölçülmedi | Test edilmedi |
 
+## Design sheet
+
+| Thing | State or event? | FishNet piece | On which object? | Who writes / calls? |
+|---|---|---|---|---|
+| Ball position | State | NetworkTransform | Ball | Server |
+| Ball in play? | State | SyncVar bool | Ball | Server |
+| Two scores | State | SyncVar int | GameState | Server |
+| Whose serve | State | SyncVar int | GameState | Server |
+| Let me serve | Request event | ServerRpc | Paddle | Owner client |
+| LEFT scored to all | Event | ObserversRpc | Scorer paddle | Server |
+| YOU SERVE to one | Event | TargetRpc | Conceder paddle | Server |
+| Event feed | State | SyncList string | GameState | Server |
+
+Court üzerindeki `BallSpawner`, `OnStartServer` içinde top prefabını `(0, Court.BallY, 0)` konumunda Instantiate eder ve sahipsiz Spawn yapar.
+Topun `Update` metodunun ilk satırı `if (!IsServerInitialized) return;` olur.
+
+Bu tasarım tablosu, top ve skor kodundan önce ayrı commit olarak kaydedilmiştir.
+
 ## Aşamalar
 
 0. Unity 6000.3.2f1 Universal 3D projesi, FishNet ve Multiplayer Play Mode.
