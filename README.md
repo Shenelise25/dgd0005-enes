@@ -14,10 +14,10 @@ Each player owns their paddle. Only the owner reads keyboard input, and the padd
 
 ## Project notes
 
-- [Step-by-step guide (Turkish)](Week03/ADIM_ADIM.md)
+- [My step-by-step guide](Week03/ADIM_ADIM.md)
 - [Homework answers, design sheet, and experiment notes](Week03/README.md)
-- [Section 14 study answers (Turkish)](Week03/SELF_REVIEW.md)
-- [Test results and verification status (Turkish)](Week03/TEST_RESULTS.md)
+- [My Section 14 study answers](Week03/SELF_REVIEW.md)
+- [My test results and verification status](Week03/TEST_RESULTS.md)
 
 ## Files
 
@@ -32,12 +32,12 @@ The five scripts in `Pong/Assets/Scripts/Network/` contain the networking logic 
 - FishNet: [official 4.7.3 tag](https://github.com/FirstGearGames/FishNet/tree/4.7.3), commit `73f30cf2425dc808a4f463f0a233d386010810b3`. The tag's package.json and version constant still say 4.7.2; these upstream values are unchanged. A direct comparison with the course's Asset Store 4.7.3R package is still pending.
 - Input System: **1.17.0**. The older version from the template did not compile with Unity 6000.3.2f1.
 - Multiplayer Play Mode: **1.6.2**. Other exact package versions are listed in `Packages/packages-lock.json`.
-- The original `Tools` folder and `Pong-Start.unitypackage` were not supplied, so the scene, HUD, and bootstrap were recreated.
+- The original `Tools` folder and `Pong-Start.unitypackage` were not supplied, so I recreated the scene, HUD, and bootstrap.
 - `Library`, `Temp`, `Logs`, and `Builds` are excluded from Git. The Windows build can be generated at `Pong/Builds/Windows/Pong.exe`.
 
 ## Testing status
 
-The existing test report records a successful Windows development build and **11/11 automated loopback checks** on one computer. These checks cover connections, paddle replication, server-controlled ball movement, serve permissions, scores, the event feed, and reconnection with the current score.
+My test report records a successful Windows development build and **11/11 automated loopback checks** on one computer. These checks cover connections, paddle replication, server-controlled ball movement, serve permissions, scores, the event feed, and reconnection with the current score.
 
 My one-laptop tick-rate results were approximately **510 B/s at 10 ticks**, **1,370 B/s at 30**, and **2,800 B/s at 60** for server outgoing traffic. The ball looked jerky at 10 and smooth at 30 and 60. I chose **30 ticks per second** because the visible gain at 60 was small while outgoing traffic roughly doubled. I rated my three predictions as right. The full setup and results are in [the Week 03 README](Week03/README.md).
 
