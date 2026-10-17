@@ -2,7 +2,7 @@
 
 ## Project setup
 
-I built this project using the three supplied Starter scripts, the Week03 homework instructions, and the lecture notes. The original Tools folder and Pong-Start.unitypackage were not supplied, so the scene, ConnectionHud, and ServerBootstrap were recreated.
+I built this project using the three supplied Starter scripts, the Week03 homework instructions, and the lecture notes. The original Tools folder and Pong-Start.unitypackage were not supplied, so I recreated the scene, ConnectionHud, and ServerBootstrap.
 
 The project uses FishNet's official `4.7.3` tag at commit `73f30cf2425dc808a4f463f0a233d386010810b3`. The version constant and package.json inside that tag still say `4.7.2`; these upstream values are unchanged.
 
@@ -54,7 +54,7 @@ The `BallSpawner` on Court instantiates the ball prefab at `(0, Court.BallY, 0)`
 
 ## Notes Section 14
 
-The ten study answers are in [SELF_REVIEW.md](SELF_REVIEW.md) (Turkish).
+My ten study answers are in [SELF_REVIEW.md](SELF_REVIEW.md).
 
 ## Step 10 - Bytes and tick rate
 
@@ -82,7 +82,7 @@ I tested the game with my sibling on two physical computers. We took turns runni
 
 ## Existing automated checks
 
-The [test report](TEST_RESULTS.md) records a successful Windows development build and **11/11 automated loopback checks** on one computer. It reports:
+My [test report](TEST_RESULTS.md) records a successful Windows development build and **11/11 automated loopback checks** on one computer. I checked the following:
 
 - A separate server connected to LEFT, RIGHT, and SPECTATOR clients.
 - Paddle positions replicated from the owner through the server to the other clients.
