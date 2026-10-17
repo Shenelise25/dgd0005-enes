@@ -1,49 +1,49 @@
-# Ders notları Bölüm 14 - açıklamalı çalışma cevapları
+# Section 14 lecture notes - my study answers
 
-Bu cevapları demo öncesi kendi cümlelerinle anlatabilmelisin.
+These are my notes for explaining the networking concepts in my own words during the demo.
 
-1. **Aynı “şimdi” neden yok?** Bilgi kabloda anında ilerlemez; uzaklık, yönlendirme ve kuyruklar gecikme ekler. Notlardaki İstanbul–Frankfurt fiziksel alt sınırı tek yön 9,5 ms, RTT 19 ms; pratik RTT 35–50 ms. 60 fps'de kare 16,67 ms: tek yön fiziksel sınır 0,57 kare, RTT sınırı 1,14 kare; pratik RTT yaklaşık 2,1–3 kare. RTT ile tek yön gecikmeyi karıştırmamak gerekir.
+1. **Why is there no shared "now"?** Information does not travel instantly through a cable. Distance, routing, and queues add delay. The lecture notes give an Istanbul–Frankfurt physical lower bound of 9.5 ms one way and 19 ms RTT, with a practical RTT of 35–50 ms. At 60 fps, one frame takes 16.67 ms. That makes the one-way physical limit about 0.57 frames and the RTT limit about 1.14 frames; practical RTT is about 2.1–3 frames. I need to keep RTT and one-way delay separate.
 
-2. **Topolojiler:**
+2. **Network topologies:**
 
 | | Dedicated server | Listen server | Peer-to-peer |
 |---|---|---|---|
-| Güven | Bağımsız sunucu | Host oyuncusu | Dağıtılmış güven |
-| Maliyet | Sunucu barındırma | Oyuncunun makinesi | Oyuncuların makineleri |
-| Gecikme | Sunucuya gidiş | Host avantajı | Eşler arası değişken |
+| Trust | Independent server | Host player | Distributed trust |
+| Cost | Server hosting | Player's computer | Players' computers |
+| Latency | Travel to the server | Host advantage | Varies between peers |
 
-Adım 5'te Server etiketli ayrı süreç dedicated server rolündedir. Adım 11'in “Start Server + Start Client” talimatı aynı süreçte uygulanırsa teknik olarak listen server/host olur; topun otoritesi yine sunucudadır. Yalnız Start Server çalışan ayrı süreç dedicated server rolünü korur.
+In Step 5, the separate process with the Server tag acts as a dedicated server. If I run Start Server and Start Client in the same process for the two-computer setup, it becomes a listen server, or host. The server still controls the ball. A separate process running only Start Server keeps the dedicated-server role.
 
-3. **UDP:** Eski konum paketinin yeniden gelmesini beklemek yeni konumları geciktirir. UDP üzerinde FishNet gerekli mesajlara güvenilirlik ekler. Skor SyncVar'ı güvenilir; sürekli konum güncellemeleri güvenilmez iletilebilir.
+3. **UDP:** Waiting for an old position packet to be retransmitted can delay newer positions. FishNet adds reliability over UDP for messages that need it. The score SyncVar is reliable, while continuous position updates can use unreliable delivery.
 
-4. **NetworkObject / NetworkBehaviour:** NetworkObject ağ kimliği, sahiplik ve spawn yaşam döngüsü verir. NetworkBehaviour scriptin ağ durumunu sorgulamasını, SyncVar/RPC ve ağ callback'lerini kullanmasını sağlar. HUD yalnızca yerel arayüzdür; MonoBehaviour yeterli, NetworkObject gerekmez.
+4. **NetworkObject / NetworkBehaviour:** A NetworkObject gives an object its network identity, ownership, and spawn lifecycle. A NetworkBehaviour lets my script check network state and use SyncVars, RPCs, and network callbacks. The HUD is just a local interface, so MonoBehaviour is enough; it does not need a NetworkObject.
 
-5. **Client 0'ın raketi, ayrı sunucu senaryosu:**
+5. **Client 0's paddle with a separate server:**
 
-| Süreç | IsOwner | IsServerInitialized | Callback | Klavye? |
+| Process | IsOwner | IsServerInitialized | Callback | Reads keyboard input? |
 |---|---|---|---|---|
-| Sunucu | false | true | OnStartServer | Hayır |
-| Client 0 | true | false | OnStartClient | Evet |
-| Client 1 | false | false | OnStartClient | Hayır |
+| Server | false | true | OnStartServer | No |
+| Client 0 | true | false | OnStartClient | Yes |
+| Client 1 | false | false | OnStartClient | No |
 
-Host, kendi raketinde hem server hem client callback'lerini alır; IsOwner ve IsServerInitialized aynı anda true olabilir.
+On a host's own paddle, both server and client callbacks run. IsOwner and IsServerInitialized can both be true.
 
-6. **Adım 6 farkı:** NetworkTransform eklendi. Yol: sahip istemci → sunucu → diğer istemci. Client Authoritative rakette açık; topu sunucu simüle ettiği için topta kapalıdır.
+6. **What changed in Step 6?** I added NetworkTransform. The position goes from the owning client to the server and then to the other client. Client Authoritative is enabled on the paddle and disabled on the ball because the server simulates the ball.
 
-7. **Bir top:** Court.Awake her süreçte yerel çalışır; Local Ball açıksa her süreç kendi topunu oluşturur. BallSpawner.OnStartServer yalnız sunucuda çalışır; tek Spawn çağrısının ağ kopyaları istemcilerde görünür. Normal istemci Spawn ile yetkili bir ağ nesnesi oluşturamaz; sunucuya istek göndermelidir.
+7. **Why only one ball?** Court.Awake runs locally in every process. If Local Ball is enabled, every process creates its own ball. BallSpawner.OnStartServer runs only on the server, and the clients receive network copies from that single Spawn call. A normal client cannot use Spawn to create an authoritative network object; it needs to send a request to the server.
 
-8. **Durum ve olay:**
+8. **State and events:**
 
-| Bilgi | Tür | Araç |
+| Information | Type | Tool |
 |---|---|---|
-| Skor | Durum | SyncVar |
-| LEFT scored | Olay | ObserversRpc |
-| Servis sırası | Durum | SyncVar |
-| YOU SERVE | Olay | TargetRpc |
-| Raket vuruş sesi | Olay | ObserversRpc |
-| Top oyunda mı | Durum | SyncVar |
-| Top konumu | Sürekli durum | NetworkTransform |
+| Score | State | SyncVar |
+| LEFT scored | Event | ObserversRpc |
+| Serve turn | State | SyncVar |
+| YOU SERVE | Event | TargetRpc |
+| Paddle hit sound | Event | ObserversRpc |
+| Ball in play? | State | SyncVar |
+| Ball position | Continuous state | NetworkTransform |
 
-9. **Vuruşa kim karar verir?** Sunucu, kendi elindeki raket kopyalarına göre karar verir. Gecikme nedeniyle istemci topun rakete değdiğini görürken sunucu farklı sonuç verebilir. İstemci InPlay SyncVar'ına yazarsa sunucu gerçeği değişmez; bu bir servis isteğinin yerine geçmez.
+9. **Who decides whether a hit happened?** The server decides using its own paddle copies. Because of network delay, I might see the ball touch a paddle on a client while the server gets a different result. Writing to the InPlay SyncVar on a client does not change the server's authoritative state and does not replace a serve request.
 
-10. **Trafik:** 8 × 30 × 40 = 9.600 B/s bir istemci için; dört istemciye toplam 38.400 B/s. Bu yalnız varsayılan konum yüküdür; protokol ek yükü, değişim sıkıştırması ve diğer mesajlar dahil değildir. Beklenti: 10 tick daha az trafik, diğer raket ve top için daha seyrek güncelleme; kendi raketi yerelde her karede hareket ettiği için aynı hisseder. Gerçek ölçüm tablosu deney yapılınca tamamlanmalıdır.
+10. **Traffic:** The example calculation is 8 × 30 × 40 = 9,600 B/s for one client, or 38,400 B/s for four clients. This only covers the assumed position payload, without protocol overhead, delta compression, or other messages. I expected 10 ticks to use less traffic and update the remote paddle and ball less often. My own paddle should feel the same because it moves locally every frame. My actual measurements are recorded in the [Week 03 README](README.md).
