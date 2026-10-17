@@ -28,8 +28,8 @@ I also tested the game on two physical computers with my sibling. We took turns 
 
 | Direction | Partner | Network | Server IP | My ClientId / side | RTT | Connection result |
 |---|---|---|---|---|---|---|
-| My computer as server -> sibling as client | My sibling | Not recorded | Not recorded | Not recorded | Not recorded | Passed |
-| Sibling as server -> my computer as client | My sibling | Not recorded | Not recorded | Not recorded | Not recorded | Passed |
+| My computer as server -> sibling as client | My sibling | Radmin VPN (different home internets) | 26.12.34.56| client 0, LEFT---client 1, RIGHT | 48 ms| No — server firewall blocked Unity on Public; allowed Private + Public, then it connected. |
+| Sibling as server -> my computer as client | My sibling | Radmin VPN | 26.78.90.12 | client 0, LEFT — client 1, RIGHT | 52 ms | Passed |
 
 ## Design sheet
 
