@@ -11,6 +11,10 @@ public class PaddleController : NetworkBehaviour
     public static readonly List<PaddleController> All = new List<PaddleController>();
     public static PaddleController Local { get; private set; }
     [SerializeField] private float speed = 8f;
+    private const int Spectator = 2;
+    private float _serverAxis;
+    public override void OnStartNetwork() => TimeManager.OnTick += OnTick;
+    public override void OnStopNetwork() => TimeManager.OnTick -= OnTick;
     private void Awake() => Side.OnChange += SideChanged;
     private void OnDestroy() { Side.OnChange -= SideChanged; All.Remove(this); if (Local == this) Local = null; }
     private void Register() { if (!All.Contains(this)) All.Add(this); }
@@ -51,11 +55,28 @@ public class PaddleController : NetworkBehaviour
         if (Side.Value == 2) return;
         Keyboard kb = Keyboard.current;
         if (kb == null) return;
-        float direction = (kb.wKey.isPressed || kb.upArrowKey.isPressed ? 1f : 0f)
-                        - (kb.sKey.isPressed || kb.downArrowKey.isPressed ? 1f : 0f);
-        transform.position += Vector3.forward * direction * speed * Time.deltaTime;
-        Court.ClampPaddle(transform);
         if (kb.spaceKey.wasPressedThisFrame) RequestServe();
+    }
+    private void OnTick()
+    {
+        if (IsOwner && Side.Value != Spectator)
+        {
+            Keyboard kb = Keyboard.current;
+            float axis = kb == null ? 0f
+                : (kb.wKey.isPressed || kb.upArrowKey.isPressed ? 1f : 0f)
+                - (kb.sKey.isPressed || kb.downArrowKey.isPressed ? 1f : 0f);
+            ServerSetAxis(axis); // Send zero too, so releasing a key stops the paddle.
+        }
+        if (IsServerInitialized)
+        {
+            transform.position += Vector3.forward * _serverAxis * speed * (float)TimeManager.TickDelta;
+            Court.ClampPaddle(transform);
+        }
+    }
+    [ServerRpc]
+    private void ServerSetAxis(float axis)
+    {
+        _serverAxis = axis;
     }
     [ServerRpc]
     public void RequestServe()
