@@ -1,99 +1,103 @@
 # Week 04 - Homework 2: The server decides
 
-Unity 6000.3.2f1, FishNet official 4.7.3 tag, 30 ticks/second. Continue the Week03 Pong scene at `Pong/Assets/Scenes/Pong.unity`.
+For this homework, I continued my Week03 Pong project and changed the paddles to server authority. I used Unity **6000.3.2f1**, FishNet's official **4.7.3** tag, and **30 ticks per second**. My networked scene is `Pong/Assets/Scenes/Pong.unity`.
 
 ## Part A - Stop trusting the client
 
 ### Step 1 - Client Authoritative off
 
-`Paddle.prefab` has `_clientAuthoritative: 0` and `_sendToOwner: 1`. The Ball prefab already has both settings. The server's position now goes to every client, including the paddle owner. The prefab setup helper also uses server authority so running it cannot restore client authority.
+I turned off Client Authoritative on the Paddle prefab and enabled Send To Owner. I also checked the Ball prefab, which already had these settings. The server now sends the paddle position to every client, including its owner. I updated the prefab setup helper too, so running it does not turn client authority back on.
 
-The temporary Step 1 state is preserved in commit `147f51c`: before the input RPC exists, client movement is overwritten by the server. This intermediate state was not separately play-tested.
+I saved this step in commit `147f51c`. At this stage, before adding the input RPC, a client's local movement would be overwritten by the server. I did not run a separate play test of this intermediate commit.
 
 ### Step 2 - Input up, position down
 
-`PaddleController.OnStartNetwork` subscribes to `TimeManager.OnTick`; `OnStopNetwork` unsubscribes. On each tick the owner reads W/S or arrows and sends -1, 0 or +1 through the ownership-required `ServerSetAxis` RPC. Zero is sent too, so releasing a key stops movement. The server stores the accepted axis and moves once per tick using `speed * TickDelta`, then calls `Court.ClampPaddle`. `Update` retains Space/serve and the deliberately insecure T experiment; it no longer performs normal movement.
+I removed normal paddle movement from `Update`. I kept the owner check and Space/serve code, then subscribed to `TimeManager.OnTick` in `OnStartNetwork` and unsubscribed in `OnStopNetwork`.
 
-Input travels client -> server; position travels server -> everyone. The owner waits for this round trip instead of predicting locally. RTT is a round-trip measurement, not an exact input-to-display measurement; tick scheduling and NetworkTransform interpolation also contribute.
+On each tick, the owner reads W/S or the arrow keys and sends -1, 0 or +1 through `ServerSetAxis`. I send 0 when no key is held, so the server knows when to stop the paddle. The server stores the accepted value in `_serverAxis`, moves the paddle once per tick using `speed * TickDelta`, and calls `Court.ClampPaddle`.
 
-Measured nonzero loopback RTT was **7-33 ms** for both players; zero entries occurred during initialization. These are local measurements, not a two-computer test.
+The input goes from client to server, and the resulting position goes from server to everyone. My owner client therefore waits for the server's update. In the automated loopback test, the nonzero RTT readings were **7-33 ms** for both players. RTT measures the round trip; tick timing and interpolation also affect the visible delay.
 
 ### Step 3 - Check the input
 
-The server rejects NaN, clamps the axis to [-1, 1], and refuses spectator input before changing movement state. FishNet's default `[ServerRpc]` ownership check also stops another client from writing this paddle's input.
+I added three checks on the server: reject NaN, clamp the axis to [-1, 1], and reject spectator input. I kept the RPC's default ownership requirement so a client cannot send input for another player's paddle.
 
-**Answer:** when the server receives `axis = 50`, `axis = Mathf.Clamp(axis, -1f, 1f);` changes it to 1. This line runs **on the server** inside `ServerSetAxis`. The tick then uses the same normal speed of 8 units/second. Positive/negative infinity also become +1/-1 through this clamp; NaN must be rejected separately.
+**If the server receives `axis = 50`, which line keeps the speed normal, and where does it run?**
+
+`axis = Mathf.Clamp(axis, -1f, 1f);` changes 50 to 1. It runs **on the server**, inside `ServerSetAxis`. The server then uses the normal speed of 8 units per second. The same clamp handles positive and negative infinity, while NaN is rejected before it reaches the movement state.
 
 ## Part B - The rate limit
 
 ### Step 4 - No second input inside 30 ms
 
-`MinInputGap = 0.030` seconds. Each paddle has its own `_lastInputTime = -1`, `_serverAxis`, and `RejectedInputs`; no timestamp is static. Time comes from `TimeManager.TicksToTime(TimeManager.Tick)` on the server, not a client clock. The first well-formed player input is accepted. A later input less than 30 ms after the last accepted one increments the counter, logs `[Server] Rejected input from client {OwnerId}: too fast.`, and returns without changing the axis or the accepted timestamp.
+I set `MinInputGap` to `0.030` seconds. Each paddle has its own `_lastInputTime`, initialized to -1, and its own `RejectedInputs` counter. I did not use a static timestamp, because one player's requests should not block another player.
 
-The server HUD shows `Rejected inputs (paddle N): count`. Its callback is removed on server stop, and values reset on server start, avoiding stale panels after reconnects.
+I get the server time with `TimeManager.TicksToTime(TimeManager.Tick)`. After checking the input, I compare this time with the last accepted request. If the gap is less than 30 ms, I increment the counter, log `[Server] Rejected input from client {OwnerId}: too fast.`, and return. Otherwise, I save the timestamp and axis.
 
-**Why 30 ms?** At 30 Hz, one tick lasts about 33.33 ms; 30 ms permits a normal input each tick while refusing multiple inputs processed during the same tick.
+I added the rejection count to the server HUD. I remove the panel callback when the server stops and reset the values when it starts again.
 
-**What about 5 ms?** It still rejects a same-tick burst with this tick-based clock, but permits a higher input frequency if the server tick rate is raised. It is a weaker time threshold; at the current 30 Hz it does not create five-millisecond clock precision.
+**Why 30 ms?** At 30 ticks per second, a tick lasts about 33.33 ms. A 30 ms limit allows normal input each tick but rejects extra requests processed in the same tick.
 
-**What about 500 ms?** Only roughly two inputs per second are accepted. Movement direction and key release are delayed, making the paddle unresponsive and causing unwanted continued motion between accepted inputs.
+**What happens with 5 ms?** With the current tick-based clock, a same-tick burst is still rejected. However, 5 ms would allow more frequent inputs at a higher server tick rate. It does not give this 30 Hz clock five-millisecond precision.
 
-This is an input acceptance limit, not a bandwidth limit: the packets still reach the server. It does not prove that every rejected packet is cheating. Normal packets can arrive in one tick and produce occasional rejections.
+**What happens with 500 ms?** The server accepts only about two inputs per second. Direction changes and key releases become delayed, so the paddle feels unresponsive and can keep moving after a key is released.
+
+The limit controls accepted requests. Packets still reach the server, and ordinary packets can also be rejected when they arrive together, so I do not treat every rejection as proof of cheating.
 
 ## Part C - Prove it
 
 ### Step 5 - The cheating client
 
-Use a **separate server and two clients**, not a host sharing server state. Click the owning client game window before pressing a key.
+I added the three debug keys to the owning client's `Update`:
 
-| Key | Client action | Expected server behavior |
+| Key | What I added | What the server does |
 | --- | --- | --- |
-| C | Send `ServerSetAxis(1f)` 20 times in one frame | One accepted input and 19 rejections when the previous accepted input was at least 30 ms ago; movement stays at normal speed. |
-| X | Send `ServerSetAxis(50f)` once | Accepted value is clamped to 1; movement never becomes 50 times faster. |
-| T | Copy the ball's position to the client's paddle transform, with no RPC | Server position and ball collision stay unchanged; subsequent authoritative position updates correct the client. |
+| C | Call `ServerSetAxis(1f)` 20 times in one frame. | In an isolated burst, accept one input and reject the other 19. Movement stays at normal speed. |
+| X | Call `ServerSetAxis(50f)` once. | Clamp the accepted axis to 1, so the paddle cannot move 50 times faster. |
+| T | Set the client's paddle position to the ball's position without an RPC. | Keep the server position unchanged and correct the client's position through authoritative updates. |
 
-The normal tick sender remains enabled during manual play. If it already sent an accepted input in the same server tick, C can add **20** rejections instead of 19; X can also be rate-limited. The isolated automated burst pauses only the test client's normal sender first, ensuring exactly 19. Network arrival, interpolation and whether the server transform changed affect visible T correction time; a literal one-tick visual guarantee must be checked separately.
+I kept normal tick input enabled during gameplay. If an input has already been accepted in the same server tick, C can produce 20 rejections rather than 19, and X can also be rate-limited. For the isolated automated C test, the probe temporarily pauses its normal input sender before sending the 20 requests.
 
-T is disabled on a host because that process shares the actual server transform; this experiment must change only a separate client's copy. T also checks that a ball exists.
+I restricted T to a separate client and checked that a ball exists. A host shares the server transform, so it would not be a valid client-only teleport test. I also call `NetworkTransform.ForceSend()` on the server each tick so an idle paddle still receives corrections. This increases idle transform traffic, and the visible correction still depends on network delay and interpolation.
 
-The server calls `NetworkTransform.ForceSend()` after moving/clamping each tick. This also resends idle positions, preventing T from persisting when the server paddle has stopped and change-only replication would otherwise send nothing. This trades additional idle transform traffic for prompt authoritative correction; interpolation and transport delay still apply.
+**1. Why does C not make the paddle 20 times faster?** My RPC stores an axis; it does not move the paddle. The server moves once per tick using `speed * TickDelta`, regardless of the number of requests.
 
-**1. Why is C not 20 times faster?** The RPC stores an axis rather than moving anything, and the server moves once per tick at `speed * TickDelta`, irrespective of how many RPCs arrive.
+**2. Why does the server ball not notice T?** T changes only the separate client's copy of the paddle. The server does not accept that position, and ball collision uses the paddle position on the server.
 
-**2. Why did the server ball not notice T?** T changes only the separate client's transform; server-authoritative NetworkTransform does not upload it, and ball collision uses the server's paddle position.
+**3. Which cheats would fail without the rate limit?** X would still fail because of the clamp, and T would still fail because the server controls position. C would not multiply movement speed either, because receiving an input does not execute a movement step. The rate limit additionally rejects and counts the spam.
 
-**3. Which cheats fail without the rate limit?** X still fails because the server clamps 50 to 1, T still fails because the client cannot change server position, and even C cannot multiply movement speed because receiving input does not execute a movement step; the rate limit additionally rejects/counts the spam.
+### My server Console screenshot
 
-### Vocabulary and the pointed-at line
+![My Unity server Console showing rejected inputs](evidence/server-console-after-c.png)
 
-- **Server authority:** the server decides the game state; clients request actions and display the server's result.
-- **Rate limiting:** accepting requests only when the minimum allowed time since the last accepted request has elapsed.
-- Pointed-at line: `axis = Mathf.Clamp(axis, -1f, 1f);` validates the magnitude on the server. `_serverAxis = axis;` stores intent; `transform.position += ... TickDelta` applies it once per server tick.
+This screenshot shows the server's rejection messages at 01:06:14, followed by serve, score and disconnect messages. The messages came from a separate test client's automated 20-request C-equivalent burst. I have included the screenshot here alongside the saved test evidence; it does not represent a separate physical-keyboard test.
 
-### Running the checks
+### My test results
 
-Build a Windows development player using `PongReplicateSetup.BuildPlayer`, then run `python tests/run_hw2.py`. It launches the real transport with one server, two players and one spectator. `Homework2Probe` is opt-in with `-hw2-test`, injects a virtual keyboard for the normal input path, and invokes the real RPC wrapper for invalid-input experiments. It never directly calls generated server RPC logic. Without `-hw2-test`, the probe does not run. The old `-smoke` probe now sends virtual keyboard input rather than writing client positions.
+The Windows development build succeeded, and **12/12 automated real-transport checks passed**. The results are in [`evidence/test-summary.json`](evidence/test-summary.json), with the recorded samples in the other evidence files.
 
-Raw test evidence and a machine-readable summary are in `evidence/`. No human two-computer or Multiplayer Play Mode test is implied by automated loopback results. The lecture notes and exact vocabulary list were not supplied; the definitions above explain the two central terms in the assignment. The optional one-second serve limit/TOO FAST extension is not implemented.
+The test used one server, two players and one spectator on the same computer. It checked the C burst's 19 consecutive rejections, normal movement, speed and court limits, spectator restrictions, the other player's movement during spam, T correction, X/NaN/infinity input, serving, scoring and runtime errors.
 
-### Verified results - 22 October 2026
+For T, the client's immediate X position was logged as 0. In the first subsequent 100 ms sample, it was back at the authoritative X=-7, before the next scripted movement. This confirms correction at that sampling resolution; I have not measured an exact one-tick visual correction time.
 
-![Actual Unity server Console after one isolated C-equivalent burst](evidence/server-console-after-c.jpg)
+The final server counters in this four-process test were 27 for the left player, 79 for the right player and 0 for the spectator. Exactly 19 consecutive left-player rejections came from C. The remaining rejections included normal inputs arriving together. This was more frequent than the assignment's example of one or two normal rejections per minute, but both paddles still passed the independent movement and speed checks. The Console screenshot was captured in a separate run from this four-process report.
 
-This is the real Unity Editor server Console, with Collapse off. A separate development client ran the opt-in probe's one 20-RPC C-equivalent burst. The 19 consecutive entries at 01:06:14 show the burst rejections; entries at earlier times are ordinary input-arrival rejections. This capture is automated RPC evidence, not a claim of a physical C keypress. The same run also shows serve and scoring messages. The screenshot run is separate from the four-process JSON report below.
+I have not run a new two-computer or Multiplayer Play Mode test for Homework 2. I saved Steps 1 and 2 as separate commits, but tested the completed implementation rather than measuring each intermediate version separately. I left out the optional one-second serve cooldown and TOO FAST message.
 
-Unity Windows development build succeeded. **12/12 real-transport checks passed** (`evidence/test-summary.json`): server/two-player/spectator roles, exactly 19 consecutive C rejections, finite/clamped positions, unchanged server paddle X positions, maximum movement speed, normal owner input, spectator restrictions, the other player's movement during spam, T correction, X/NaN/infinity attempts, serve/goal, and no runtime exceptions.
+### Two vocabulary words and the pointed-at line
 
-The T action logged the client's immediate X as 0; the first subsequent 100 ms sample already showed authoritative X=-7, before the next scripted movement. This confirms correction at the sampling resolution, not its exact sub-frame latency.
+- **Server authority:** the server decides the game state. In my game, clients send input and display the positions decided by the server.
+- **Rate limiting:** accepting requests only after a minimum time gap. In my implementation, each paddle waits at least 30 ms between accepted inputs.
+- The line I would point to for the speed-hack check is `axis = Mathf.Clamp(axis, -1f, 1f);`. `_serverAxis = axis;` stores the accepted input, and the movement line using `TickDelta` applies it once per server tick.
 
-The final server counters were 27 (left), 79 (right), and 0 (spectator). The C burst itself accounts for exactly 19 consecutive left rejections; other counts include normally generated inputs arriving together. This multi-process test produced more normal-input rejections than the assignment's illustrative one-or-two-per-minute expectation. The server still moved each paddle at most once per tick, and the independent movement checks passed. Do not present the total counter as a count of proven cheats.
+### Running my checks
 
-Build and test commands on Windows:
+I used `PongReplicateSetup.BuildPlayer` to build the Windows development player and `tests/run_hw2.py` for the automated network checks:
 
 ```powershell
 unity run ./Pong --editor-version 6000.3.2f1 -- -nographics -executeMethod PongReplicateSetup.BuildPlayer
 python tests/run_hw2.py
-python tests/run_hw2.py --check-only # evaluate the existing saved run
+python tests/run_hw2.py --check-only
 ```
 
-The starting Week03 implementation was reviewed and its previously recorded checks retained. The Homework2 tests reverified one active ball's serve and scoring path; the transient Step 1 and Step 2 states were saved in separate commits, without claiming separate runtime measurements of each transient state.
+`Homework2Probe` runs only with `-hw2-test`. It uses a virtual keyboard for normal movement and invokes the real RPC wrapper for the invalid-input tests. It does not call the generated server RPC logic directly. I also updated the older `-smoke` probe to send keyboard input instead of writing the client's paddle position.

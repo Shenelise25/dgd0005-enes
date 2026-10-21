@@ -14,7 +14,9 @@ Each player owns their paddle. Only the owner reads keyboard input and sends an 
 
 ## Homework 2 - Week 04
 
-See [Week04/README.md](Week04/README.md) for all five steps, the required answers, vocabulary, measured test results and server Console evidence. C sends 20 inputs, X sends 50, and T changes only the separate client position. The server HUD counts rejected inputs per paddle.
+I continued my Week03 project by moving paddle authority to the server and adding a 30 ms input limit for each player. I added C to send 20 inputs, X to send an axis of 50, and T to change only the separate client's paddle position. My server HUD shows the rejected input count for each paddle.
+
+I wrote my step-by-step explanations, answers, vocabulary and test results in [Week04/README.md](Week04/README.md). I also included my server Console screenshot there. The Windows development build succeeded and all **12/12 automated Homework 2 checks** passed using separate processes on one computer. I have not run a new two-computer or Multiplayer Play Mode test for Homework 2.
 
 ## Project notes
 
@@ -41,7 +43,7 @@ The networking scripts in `Pong/Assets/Scripts/Network/` contain the networking 
 
 ## Testing status
 
-My test report records a successful Windows development build and **11/11 automated loopback checks** on one computer. These checks cover connections, paddle replication, server-controlled ball movement, serve permissions, scores, the event feed, and reconnection with the current score.
+For Week03, my test report records a successful Windows development build and **11/11 automated loopback checks** on one computer. These checks cover connections, paddle replication, server-controlled ball movement, serve permissions, scores, the event feed, and reconnection with the current score. My Homework 2 results are recorded separately in the Week04 README.
 
 My one-laptop tick-rate results were approximately **510 B/s at 10 ticks**, **1,370 B/s at 30**, and **2,800 B/s at 60** for server outgoing traffic. The ball looked jerky at 10 and smooth at 30 and 60. I chose **30 ticks per second** because the visible gain at 60 was small while outgoing traffic roughly doubled. I rated my three predictions as right. The full setup and results are in [the Week 03 README](Week03/README.md).
 
