@@ -1,16 +1,20 @@
-# DGD0005 - Enes - Week 03 Pong
+# DGD0005 - Enes - Week 04 Pong
 
 I built this networked Pong project with Unity **6000.3.2f1**, the Universal 3D template, and FishNet's official **4.7.3** tag.
 
 ## Ownership in my game
 
-Each player owns their paddle. Only the owner reads keyboard input, and the paddle's client-authoritative NetworkTransform sends its position to the server. The ball has no player owner: the server spawns it and controls its movement. The scores, serve turn, and last six events are shared state. Only the server changes these values, and SyncVars and a SyncList keep the clients updated.
+Each player owns their paddle. Only the owner reads keyboard input and sends an axis each tick. The server validates and rate-limits that input to one accepted request per 30 ms, then moves and clamps the paddle. Server-authoritative NetworkTransform sends the resulting position to everyone, including the owner. The ball has no player owner: the server spawns it and controls its movement. The scores, serve turn, and last six events are shared state. Only the server changes these values, and SyncVars and a SyncList keep the clients updated.
 
 ## Starting the game
 
 1. Open the `Pong` folder in Unity Hub with Unity 6000.3.2f1, open `Assets/Scenes/Pong.unity`, and press Play. In the server window, select **Start Server**.
 2. In each player window, enter the server's IP address and select **Start Client**. For windows on the same computer, use `127.0.0.1` and port `7770`.
 3. Move with **W/S or the arrow keys**. Press **Space** when it is your turn to serve. For a separate server in Multiplayer Play Mode, give Player 2 the `Server` tag.
+
+## Homework 2 - Week 04
+
+See [Week04/README.md](Week04/README.md) for all five steps, the required answers, vocabulary, measured test results and server Console evidence. C sends 20 inputs, X sends 50, and T changes only the separate client position. The server HUD counts rejected inputs per paddle.
 
 ## Project notes
 
@@ -21,7 +25,7 @@ Each player owns their paddle. Only the owner reads keyboard input, and the padd
 
 ## Files
 
-The five scripts in `Pong/Assets/Scripts/Network/` contain the networking logic for this assignment. `Starter/` contains the supplied local Pong scripts, with changes to Court.Paint for headless execution and shader availability in builds. The HUD and bootstrap in `Tools/` replace the course files that were not supplied.
+The networking scripts in `Pong/Assets/Scripts/Network/` contain the networking logic for this assignment. `Starter/` contains the supplied local Pong scripts, with changes to Court.Paint for headless execution and shader availability in builds. The HUD and bootstrap in `Tools/` replace the course files that were not supplied.
 
 `Assets/Editor/` contains helpers for creating scenes and prefabs and building a Windows development player. `Assets/Tests/PongSmokeProbe.cs` runs only in a development build with the `-smoke` argument. During normal gameplay, it does not move the paddles or serve automatically.
 

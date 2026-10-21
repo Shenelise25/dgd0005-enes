@@ -61,7 +61,7 @@ public class ConnectionHud : MonoBehaviour
     {
         if (manager == null) return;
         GUILayout.BeginArea(new Rect(12,12,330,Screen.height-24), GUI.skin.box);
-        GUILayout.Label("PONG | DGD0005 Week 03");
+        GUILayout.Label("PONG | DGD0005 Week 04");
         address = GUILayout.TextField(address);
         if (GUILayout.Button(manager.IsServerStarted ? "Stop Server" : "Start Server"))
         { if (manager.IsServerStarted) manager.ServerManager.StopConnection(true); else manager.ServerManager.StartConnection(); }
@@ -70,6 +70,7 @@ public class ConnectionHud : MonoBehaviour
         GUILayout.Label($"RTT: {manager.TimeManager.RoundTripTime} ms | Tick: {manager.TimeManager.Tick}\nTick rate: {manager.TimeManager.TickRate} | Clients: {manager.ServerManager.Clients.Count}");
         GUILayout.Label(rates);
         GUILayout.Label("W/S or arrows: move | Space: serve");
+        GUILayout.Label("C: spam | X: speed hack | T: teleport");
         if (PaddleController.Local != null) GUILayout.Label("You: " + PaddleController.SideName(PaddleController.Local.Side.Value));
         foreach (var panel in Panels) GUILayout.Label(panel());
         flashes.RemoveAll(f => f.until < Time.unscaledTime);

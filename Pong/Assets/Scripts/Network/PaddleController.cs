@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using FishNet.Connection;
+using FishNet.Component.Transforming;
 using FishNet.Object;
 using FishNet.Object.Synchronizing;
 using UnityEngine;
@@ -17,9 +18,14 @@ public class PaddleController : NetworkBehaviour
     private double _lastInputTime = -1;
     public int RejectedInputs;
     private System.Func<string> _rejectedPanel;
+    private NetworkTransform _networkTransform;
     public override void OnStartNetwork() => TimeManager.OnTick += OnTick;
     public override void OnStopNetwork() => TimeManager.OnTick -= OnTick;
-    private void Awake() => Side.OnChange += SideChanged;
+    private void Awake()
+    {
+        Side.OnChange += SideChanged;
+        _networkTransform = GetComponent<NetworkTransform>();
+    }
     private void OnDestroy() { Side.OnChange -= SideChanged; All.Remove(this); if (Local == this) Local = null; }
     private void Register() { if (!All.Contains(this)) All.Add(this); }
     public override void OnStartServer()
@@ -66,6 +72,12 @@ public class PaddleController : NetworkBehaviour
         if (Side.Value == 2) return;
         Keyboard kb = Keyboard.current;
         if (kb == null) return;
+        if (kb.cKey.wasPressedThisFrame)
+            for (int i = 0; i < 20; i++) ServerSetAxis(1f);
+        if (kb.xKey.wasPressedThisFrame) ServerSetAxis(50f);
+        // Test in a separate client: a host shares the server's Transform.
+        if (kb.tKey.wasPressedThisFrame && !IsServerInitialized && NetworkBall.Instance != null)
+            transform.position = NetworkBall.Instance.transform.position;
         if (kb.spaceKey.wasPressedThisFrame) RequestServe();
     }
     private void OnTick()
@@ -82,6 +94,8 @@ public class PaddleController : NetworkBehaviour
         {
             transform.position += Vector3.forward * _serverAxis * speed * (float)TimeManager.TickDelta;
             Court.ClampPaddle(transform);
+            // Resend even at rest: an idle server must also correct client-only T edits.
+            if (_networkTransform != null) _networkTransform.ForceSend();
         }
     }
     [ServerRpc]

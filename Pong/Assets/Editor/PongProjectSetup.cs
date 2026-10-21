@@ -82,7 +82,7 @@ public static class PongProjectSetup
         var prefab = PrefabUtility.LoadPrefabContents("Assets/Prefabs/Paddle.prefab");
         var nt = prefab.GetComponent<NetworkTransform>();
         if (nt == null) nt = prefab.AddComponent<NetworkTransform>();
-        ConfigureTransform(nt,true);
+        ConfigureTransform(nt,false);
         PrefabUtility.SaveAsPrefabAsset(prefab,"Assets/Prefabs/Paddle.prefab");
         PrefabUtility.UnloadPrefabContents(prefab);
         AssetDatabase.SaveAssets();

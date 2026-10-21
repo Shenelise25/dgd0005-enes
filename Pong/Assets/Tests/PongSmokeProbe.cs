@@ -3,6 +3,8 @@ using System;
 using System.Linq;
 using FishNet;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 
 // Opt-in integration probe: absent unless launched with -smoke.
 // Exercises the real transport, NetworkTransform, RPCs and SyncTypes.
@@ -13,6 +15,7 @@ public class PongSmokeProbe : MonoBehaviour
     private float lastServe;
     private bool disconnected;
     private bool captured;
+    private Keyboard testKeyboard;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void Install()
     {
@@ -37,9 +40,12 @@ public class PongSmokeProbe : MonoBehaviour
         { ScreenCapture.CaptureScreenshot(args[captureArg+1]); captured = true; }
         if (local != null && local.IsOwner && local.Side.Value < 2)
         {
-            // Change an owner transform, then observe it from the other processes.
+            // Exercise owner input; the server is now the only movement writer.
             float testZ = ball != null && ball.transform.position.z < 0 ? 3.8f : -3.8f;
-            local.transform.position = new Vector3(local.Side.Value == 0 ? -7 : 7,.5f,testZ+.1f*Mathf.Sin(Time.time));
+            if (testKeyboard == null) testKeyboard = InputSystem.AddDevice<Keyboard>();
+            float distance = testZ - local.transform.position.z;
+            InputSystem.QueueStateEvent(testKeyboard, Mathf.Abs(distance) < .2f ? new KeyboardState()
+                : new KeyboardState(distance > 0 ? Key.W : Key.S));
             if (state != null && ball != null)
             {
                 if (local.Side.Value == 1 && Time.time < 5 && !wrongServeSent)
@@ -56,5 +62,6 @@ public class PongSmokeProbe : MonoBehaviour
         }
         if (Time.time > 45) Application.Quit();
     }
+    private void OnDestroy() { if (testKeyboard != null) InputSystem.RemoveDevice(testKeyboard); }
 }
 #endif

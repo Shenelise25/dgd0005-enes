@@ -1,0 +1,36 @@
+{
+  "passed": 12,
+  "total": 12,
+  "checks": {
+    "server_two_players_spectator": true,
+    "one_C_rejects_exactly_19": true,
+    "all_positions_finite_and_clamped": true,
+    "server_paddles_never_teleport": true,
+    "speed_never_exceeds_8_units_per_second": true,
+    "normal_owner_input_moves_both_paddles": true,
+    "spectator_cannot_move_or_serve": true,
+    "other_player_not_blocked_by_spam": true,
+    "client_teleport_was_attempted_and_corrected": true,
+    "X_NaN_infinity_tests_executed": true,
+    "legal_serve_and_goal_still_work": true,
+    "no_runtime_errors": true
+  },
+  "client_RTT_ms": {
+    "left": [
+      0,
+      7,
+      11,
+      13,
+      17,
+      33
+    ],
+    "right": [
+      0,
+      7,
+      13,
+      20,
+      27,
+      33
+    ]
+  }
+}

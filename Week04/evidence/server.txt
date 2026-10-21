@@ -1,0 +1,777 @@
+HW2_SAMPLE t=0.903 tick=32 server=True id=0 side=0 x=-7.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=1.003 tick=35 server=True id=0 side=0 x=-7.000 z=0.000 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.103 tick=38 server=True id=0 side=0 x=-7.000 z=0.000 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.204 tick=41 server=True id=0 side=0 x=-7.000 z=-0.800 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.304 tick=44 server=True id=0 side=0 x=-7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.404 tick=47 server=True id=0 side=0 x=-7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.504 tick=50 server=True id=0 side=0 x=-7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.604 tick=53 server=True id=0 side=0 x=-7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=1.705 tick=56 server=True id=0 side=0 x=-7.000 z=-1.600 reject=2 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.705 tick=56 server=True id=1 side=1 x=7.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=1.805 tick=59 server=True id=0 side=0 x=-7.000 z=-1.600 reject=2 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.805 tick=59 server=True id=1 side=1 x=7.000 z=0.000 reject=1 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=1.905 tick=62 server=True id=0 side=0 x=-7.000 z=-1.600 reject=3 rtt=0 ball=False score=0
+HW2_SAMPLE t=1.905 tick=62 server=True id=1 side=1 x=7.000 z=0.000 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.005 tick=65 server=True id=0 side=0 x=-7.000 z=-1.600 reject=3 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.005 tick=65 server=True id=1 side=1 x=7.000 z=-0.800 reject=1 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=2.105 tick=68 server=True id=0 side=0 x=-7.000 z=-1.600 reject=4 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.105 tick=68 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=2.205 tick=71 server=True id=0 side=0 x=-7.000 z=-1.600 reject=5 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.205 tick=71 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.305 tick=74 server=True id=0 side=0 x=-7.000 z=-1.600 reject=5 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.305 tick=74 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=2.405 tick=77 server=True id=0 side=0 x=-7.000 z=-1.600 reject=6 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.405 tick=77 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.505 tick=80 server=True id=0 side=0 x=-7.000 z=-1.600 reject=6 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.505 tick=80 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.505 tick=80 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=2.605 tick=83 server=True id=0 side=0 x=-7.000 z=-1.600 reject=7 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.605 tick=83 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.605 tick=83 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.705 tick=86 server=True id=0 side=0 x=-7.000 z=-1.600 reject=7 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.705 tick=86 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.705 tick=86 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+HW2_SAMPLE t=2.805 tick=89 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.805 tick=89 server=True id=1 side=1 x=7.000 z=-1.600 reject=1 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.805 tick=89 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=2.905 tick=92 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.905 tick=92 server=True id=1 side=1 x=7.000 z=-1.600 reject=2 rtt=0 ball=False score=0
+HW2_SAMPLE t=2.905 tick=92 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.005 tick=95 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.005 tick=95 server=True id=1 side=1 x=7.000 z=-1.600 reject=2 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.005 tick=95 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=3.105 tick=98 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.105 tick=98 server=True id=1 side=1 x=7.000 z=-1.600 reject=3 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.105 tick=98 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.205 tick=101 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.205 tick=101 server=True id=1 side=1 x=7.000 z=-1.600 reject=3 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.205 tick=101 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=3.305 tick=104 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.305 tick=104 server=True id=1 side=1 x=7.000 z=-1.600 reject=4 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.305 tick=104 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.406 tick=107 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.406 tick=107 server=True id=1 side=1 x=7.000 z=-1.600 reject=4 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.406 tick=107 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=3.506 tick=110 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.506 tick=110 server=True id=1 side=1 x=7.000 z=-1.600 reject=5 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.506 tick=110 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=3.606 tick=113 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.606 tick=113 server=True id=1 side=1 x=7.000 z=-1.600 reject=6 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.606 tick=113 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.706 tick=116 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.706 tick=116 server=True id=1 side=1 x=7.000 z=-1.600 reject=6 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.706 tick=116 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=3.806 tick=119 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.806 tick=119 server=True id=1 side=1 x=7.000 z=-0.800 reject=7 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.806 tick=119 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.906 tick=122 server=True id=0 side=0 x=-7.000 z=-1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.906 tick=122 server=True id=1 side=1 x=7.000 z=0.000 reject=7 rtt=0 ball=False score=0
+HW2_SAMPLE t=3.906 tick=122 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 0: too fast.
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=4.006 tick=125 server=True id=0 side=0 x=-7.000 z=-0.800 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.006 tick=125 server=True id=1 side=1 x=7.000 z=0.800 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.006 tick=125 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.106 tick=128 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.106 tick=128 server=True id=1 side=1 x=7.000 z=1.600 reject=8 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.106 tick=128 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=4.206 tick=131 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.206 tick=131 server=True id=1 side=1 x=7.000 z=2.400 reject=9 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.206 tick=131 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.306 tick=134 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.306 tick=134 server=True id=1 side=1 x=7.000 z=3.200 reject=9 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.306 tick=134 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=4.406 tick=137 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.406 tick=137 server=True id=1 side=1 x=7.000 z=4.000 reject=10 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.406 tick=137 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.506 tick=140 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.506 tick=140 server=True id=1 side=1 x=7.000 z=4.000 reject=10 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.506 tick=140 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=4.606 tick=143 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.606 tick=143 server=True id=1 side=1 x=7.000 z=4.000 reject=11 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.606 tick=143 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.706 tick=146 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.706 tick=146 server=True id=1 side=1 x=7.000 z=4.000 reject=11 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.706 tick=146 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=4.806 tick=149 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.806 tick=149 server=True id=1 side=1 x=7.000 z=4.000 reject=12 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.806 tick=149 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.907 tick=152 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.907 tick=152 server=True id=1 side=1 x=7.000 z=4.000 reject=12 rtt=0 ball=False score=0
+HW2_SAMPLE t=4.907 tick=152 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=5.007 tick=155 server=True id=0 side=0 x=-7.000 z=0.800 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.007 tick=155 server=True id=1 side=1 x=7.000 z=4.000 reject=13 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.007 tick=155 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.107 tick=158 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.107 tick=158 server=True id=1 side=1 x=7.000 z=4.000 reject=13 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.107 tick=158 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=5.207 tick=161 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.207 tick=161 server=True id=1 side=1 x=7.000 z=4.000 reject=14 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.207 tick=161 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.307 tick=164 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.307 tick=164 server=True id=1 side=1 x=7.000 z=4.000 reject=14 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.307 tick=164 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=5.407 tick=167 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.407 tick=167 server=True id=1 side=1 x=7.000 z=4.000 reject=15 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.407 tick=167 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.507 tick=170 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.507 tick=170 server=True id=1 side=1 x=7.000 z=4.000 reject=15 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.507 tick=170 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=5.607 tick=173 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.607 tick=173 server=True id=1 side=1 x=7.000 z=4.000 reject=16 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.607 tick=173 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.708 tick=176 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.708 tick=176 server=True id=1 side=1 x=7.000 z=4.000 reject=16 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.708 tick=176 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=5.808 tick=179 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.808 tick=179 server=True id=1 side=1 x=7.000 z=4.000 reject=17 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.808 tick=179 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.908 tick=182 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.908 tick=182 server=True id=1 side=1 x=7.000 z=4.000 reject=17 rtt=0 ball=False score=0
+HW2_SAMPLE t=5.908 tick=182 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=6.008 tick=185 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.008 tick=185 server=True id=1 side=1 x=7.000 z=4.000 reject=18 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.008 tick=185 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.108 tick=188 server=True id=0 side=0 x=-7.000 z=1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.108 tick=188 server=True id=1 side=1 x=7.000 z=4.000 reject=18 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.108 tick=188 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=6.208 tick=191 server=True id=0 side=0 x=-7.000 z=1.333 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.208 tick=191 server=True id=1 side=1 x=7.000 z=4.000 reject=19 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.208 tick=191 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.308 tick=194 server=True id=0 side=0 x=-7.000 z=0.533 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.308 tick=194 server=True id=1 side=1 x=7.000 z=4.000 reject=19 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.308 tick=194 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=6.409 tick=197 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.409 tick=197 server=True id=1 side=1 x=7.000 z=4.000 reject=20 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.409 tick=197 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.509 tick=200 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.509 tick=200 server=True id=1 side=1 x=7.000 z=4.000 reject=20 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.509 tick=200 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=6.609 tick=203 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.609 tick=203 server=True id=1 side=1 x=7.000 z=4.000 reject=21 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.609 tick=203 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.709 tick=206 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.709 tick=206 server=True id=1 side=1 x=7.000 z=4.000 reject=21 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.709 tick=206 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.809 tick=209 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.809 tick=209 server=True id=1 side=1 x=7.000 z=4.000 reject=21 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.809 tick=209 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.909 tick=212 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.909 tick=212 server=True id=1 side=1 x=7.000 z=4.000 reject=21 rtt=0 ball=False score=0
+HW2_SAMPLE t=6.909 tick=212 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=7.009 tick=215 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.009 tick=215 server=True id=1 side=1 x=7.000 z=4.000 reject=22 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.009 tick=215 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.109 tick=218 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.109 tick=218 server=True id=1 side=1 x=7.000 z=4.000 reject=22 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.109 tick=218 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=7.209 tick=221 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.209 tick=221 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.209 tick=221 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.310 tick=224 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.310 tick=224 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.310 tick=224 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.410 tick=227 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.410 tick=227 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.410 tick=227 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.510 tick=230 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.510 tick=230 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.510 tick=230 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.610 tick=233 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.610 tick=233 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.610 tick=233 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.710 tick=236 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.710 tick=236 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.710 tick=236 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.810 tick=239 server=True id=0 side=0 x=-7.000 z=0.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.810 tick=239 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.810 tick=239 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.910 tick=242 server=True id=0 side=0 x=-7.000 z=-0.267 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.910 tick=242 server=True id=1 side=1 x=7.000 z=4.000 reject=23 rtt=0 ball=False score=0
+HW2_SAMPLE t=7.910 tick=242 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=8.010 tick=245 server=True id=0 side=0 x=-7.000 z=-1.067 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.010 tick=245 server=True id=1 side=1 x=7.000 z=4.000 reject=24 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.010 tick=245 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.111 tick=248 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.111 tick=248 server=True id=1 side=1 x=7.000 z=4.000 reject=24 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.111 tick=248 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=8.211 tick=251 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.211 tick=251 server=True id=1 side=1 x=7.000 z=4.000 reject=25 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.211 tick=251 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.311 tick=254 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.311 tick=254 server=True id=1 side=1 x=7.000 z=4.000 reject=25 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.311 tick=254 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=8.411 tick=257 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.411 tick=257 server=True id=1 side=1 x=7.000 z=4.000 reject=26 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.411 tick=257 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.511 tick=260 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.511 tick=260 server=True id=1 side=1 x=7.000 z=4.000 reject=26 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.511 tick=260 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.611 tick=263 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.611 tick=263 server=True id=1 side=1 x=7.000 z=4.000 reject=26 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.611 tick=263 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.712 tick=266 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.712 tick=266 server=True id=1 side=1 x=7.000 z=4.000 reject=26 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.712 tick=266 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=8.812 tick=269 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.812 tick=269 server=True id=1 side=1 x=7.000 z=4.000 reject=27 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.812 tick=269 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=0
+HW2_SAMPLE t=8.912 tick=272 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=8.912 tick=272 server=True id=1 side=1 x=7.000 z=4.000 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=8.912 tick=272 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.012 tick=275 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.012 tick=275 server=True id=1 side=1 x=7.000 z=4.000 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.012 tick=275 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.112 tick=278 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.112 tick=278 server=True id=1 side=1 x=7.000 z=4.000 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.112 tick=278 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.212 tick=281 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.212 tick=281 server=True id=1 side=1 x=7.000 z=4.000 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.212 tick=281 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.312 tick=284 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.312 tick=284 server=True id=1 side=1 x=7.000 z=4.000 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.312 tick=284 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=9.412 tick=287 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.412 tick=287 server=True id=1 side=1 x=7.000 z=4.000 reject=28 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.412 tick=287 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.512 tick=290 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.512 tick=290 server=True id=1 side=1 x=7.000 z=4.000 reject=28 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.512 tick=290 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=9.612 tick=293 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.612 tick=293 server=True id=1 side=1 x=7.000 z=4.000 reject=29 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.612 tick=293 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.713 tick=296 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.713 tick=296 server=True id=1 side=1 x=7.000 z=4.000 reject=29 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.713 tick=296 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=9.813 tick=299 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.813 tick=299 server=True id=1 side=1 x=7.000 z=4.000 reject=30 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.813 tick=299 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.913 tick=302 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.913 tick=302 server=True id=1 side=1 x=7.000 z=4.000 reject=30 rtt=0 ball=True score=0
+HW2_SAMPLE t=9.913 tick=302 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=10.013 tick=305 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=10.013 tick=305 server=True id=1 side=1 x=7.000 z=4.000 reject=30 rtt=0 ball=True score=0
+HW2_SAMPLE t=10.013 tick=305 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+HW2_SAMPLE t=10.113 tick=308 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=True score=0
+HW2_SAMPLE t=10.113 tick=308 server=True id=1 side=1 x=7.000 z=4.000 reject=30 rtt=0 ball=True score=0
+HW2_SAMPLE t=10.113 tick=308 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=True score=0
+[Server] Rejected input from client 1: too fast.
+[Server] LEFT scored! 1 : 0
+HW2_SAMPLE t=10.213 tick=311 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.213 tick=311 server=True id=1 side=1 x=7.000 z=4.000 reject=31 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.213 tick=311 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.313 tick=314 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.313 tick=314 server=True id=1 side=1 x=7.000 z=4.000 reject=31 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.313 tick=314 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=10.413 tick=317 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.413 tick=317 server=True id=1 side=1 x=7.000 z=4.000 reject=32 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.413 tick=317 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.513 tick=320 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.513 tick=320 server=True id=1 side=1 x=7.000 z=4.000 reject=32 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.513 tick=320 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.613 tick=323 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.613 tick=323 server=True id=1 side=1 x=7.000 z=4.000 reject=32 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.613 tick=323 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.713 tick=326 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.713 tick=326 server=True id=1 side=1 x=7.000 z=4.000 reject=32 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.713 tick=326 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.813 tick=329 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.813 tick=329 server=True id=1 side=1 x=7.000 z=4.000 reject=32 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.813 tick=329 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=10.913 tick=332 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.913 tick=332 server=True id=1 side=1 x=7.000 z=4.000 reject=33 rtt=0 ball=False score=1
+HW2_SAMPLE t=10.913 tick=332 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.014 tick=335 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.014 tick=335 server=True id=1 side=1 x=7.000 z=4.000 reject=33 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.014 tick=335 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=11.114 tick=338 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.114 tick=338 server=True id=1 side=1 x=7.000 z=4.000 reject=34 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.114 tick=338 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.214 tick=341 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.214 tick=341 server=True id=1 side=1 x=7.000 z=4.000 reject=34 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.214 tick=341 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=11.314 tick=344 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.314 tick=344 server=True id=1 side=1 x=7.000 z=4.000 reject=35 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.314 tick=344 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.414 tick=347 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.414 tick=347 server=True id=1 side=1 x=7.000 z=4.000 reject=35 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.414 tick=347 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=11.514 tick=350 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.514 tick=350 server=True id=1 side=1 x=7.000 z=4.000 reject=36 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.514 tick=350 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.614 tick=353 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.614 tick=353 server=True id=1 side=1 x=7.000 z=4.000 reject=36 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.614 tick=353 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=11.714 tick=356 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.714 tick=356 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.714 tick=356 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.814 tick=359 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.814 tick=359 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.814 tick=359 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.914 tick=362 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.914 tick=362 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=11.914 tick=362 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.014 tick=365 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.014 tick=365 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.014 tick=365 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.114 tick=368 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.114 tick=368 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.114 tick=368 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.214 tick=371 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.214 tick=371 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.214 tick=371 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.314 tick=374 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.314 tick=374 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.314 tick=374 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.414 tick=377 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.414 tick=377 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.414 tick=377 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.514 tick=380 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.514 tick=380 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.514 tick=380 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.614 tick=383 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.614 tick=383 server=True id=1 side=1 x=7.000 z=4.000 reject=37 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.614 tick=383 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=12.714 tick=386 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.714 tick=386 server=True id=1 side=1 x=7.000 z=4.000 reject=38 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.714 tick=386 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.814 tick=389 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.814 tick=389 server=True id=1 side=1 x=7.000 z=4.000 reject=38 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.814 tick=389 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.915 tick=392 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.915 tick=392 server=True id=1 side=1 x=7.000 z=4.000 reject=38 rtt=0 ball=False score=1
+HW2_SAMPLE t=12.915 tick=392 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.015 tick=395 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.015 tick=395 server=True id=1 side=1 x=7.000 z=4.000 reject=38 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.015 tick=395 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.115 tick=398 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.115 tick=398 server=True id=1 side=1 x=7.000 z=4.000 reject=38 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.115 tick=398 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=13.215 tick=401 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.215 tick=401 server=True id=1 side=1 x=7.000 z=4.000 reject=39 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.215 tick=401 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.315 tick=404 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.315 tick=404 server=True id=1 side=1 x=7.000 z=4.000 reject=39 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.315 tick=404 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=13.415 tick=407 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.415 tick=407 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.415 tick=407 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.515 tick=410 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.515 tick=410 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.515 tick=410 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.615 tick=413 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.615 tick=413 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.615 tick=413 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.715 tick=416 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.715 tick=416 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.715 tick=416 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.815 tick=419 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.815 tick=419 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.815 tick=419 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.915 tick=422 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.915 tick=422 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=13.915 tick=422 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.016 tick=425 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.016 tick=425 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.016 tick=425 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.116 tick=428 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.116 tick=428 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.116 tick=428 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.216 tick=431 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.216 tick=431 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.216 tick=431 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.316 tick=434 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.316 tick=434 server=True id=1 side=1 x=7.000 z=4.000 reject=40 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.316 tick=434 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=14.416 tick=437 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.416 tick=437 server=True id=1 side=1 x=7.000 z=4.000 reject=41 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.416 tick=437 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.516 tick=440 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.516 tick=440 server=True id=1 side=1 x=7.000 z=4.000 reject=41 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.516 tick=440 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=14.616 tick=443 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.616 tick=443 server=True id=1 side=1 x=7.000 z=4.000 reject=42 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.616 tick=443 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.716 tick=446 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.716 tick=446 server=True id=1 side=1 x=7.000 z=4.000 reject=42 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.716 tick=446 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=14.816 tick=449 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.816 tick=449 server=True id=1 side=1 x=7.000 z=4.000 reject=43 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.816 tick=449 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.917 tick=452 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.917 tick=452 server=True id=1 side=1 x=7.000 z=4.000 reject=43 rtt=0 ball=False score=1
+HW2_SAMPLE t=14.917 tick=452 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=15.017 tick=455 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.017 tick=455 server=True id=1 side=1 x=7.000 z=4.000 reject=44 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.017 tick=455 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.117 tick=458 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.117 tick=458 server=True id=1 side=1 x=7.000 z=4.000 reject=44 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.117 tick=458 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=15.217 tick=461 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.217 tick=461 server=True id=1 side=1 x=7.000 z=4.000 reject=45 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.217 tick=461 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.317 tick=464 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.317 tick=464 server=True id=1 side=1 x=7.000 z=4.000 reject=45 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.317 tick=464 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=15.417 tick=467 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.417 tick=467 server=True id=1 side=1 x=7.000 z=4.000 reject=46 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.417 tick=467 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.517 tick=470 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.517 tick=470 server=True id=1 side=1 x=7.000 z=4.000 reject=46 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.517 tick=470 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=15.617 tick=473 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.617 tick=473 server=True id=1 side=1 x=7.000 z=4.000 reject=47 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.617 tick=473 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.717 tick=476 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.717 tick=476 server=True id=1 side=1 x=7.000 z=4.000 reject=47 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.717 tick=476 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=15.817 tick=479 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.817 tick=479 server=True id=1 side=1 x=7.000 z=4.000 reject=48 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.817 tick=479 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.917 tick=482 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.917 tick=482 server=True id=1 side=1 x=7.000 z=4.000 reject=48 rtt=0 ball=False score=1
+HW2_SAMPLE t=15.917 tick=482 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=16.017 tick=485 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.017 tick=485 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.017 tick=485 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.117 tick=488 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.117 tick=488 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.117 tick=488 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.217 tick=491 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.217 tick=491 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.217 tick=491 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.317 tick=494 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.317 tick=494 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.317 tick=494 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.417 tick=497 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.417 tick=497 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.417 tick=497 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.517 tick=500 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.517 tick=500 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.517 tick=500 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.618 tick=503 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.618 tick=503 server=True id=1 side=1 x=7.000 z=4.000 reject=49 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.618 tick=503 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=16.718 tick=506 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.718 tick=506 server=True id=1 side=1 x=7.000 z=4.000 reject=50 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.718 tick=506 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.818 tick=509 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.818 tick=509 server=True id=1 side=1 x=7.000 z=4.000 reject=50 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.818 tick=509 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.918 tick=512 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.918 tick=512 server=True id=1 side=1 x=7.000 z=4.000 reject=50 rtt=0 ball=False score=1
+HW2_SAMPLE t=16.918 tick=512 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.018 tick=515 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.018 tick=515 server=True id=1 side=1 x=7.000 z=4.000 reject=50 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.018 tick=515 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=17.118 tick=518 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.118 tick=518 server=True id=1 side=1 x=7.000 z=4.000 reject=51 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.118 tick=518 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.218 tick=521 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.218 tick=521 server=True id=1 side=1 x=7.000 z=4.000 reject=51 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.218 tick=521 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=17.318 tick=524 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.318 tick=524 server=True id=1 side=1 x=7.000 z=4.000 reject=52 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.318 tick=524 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.418 tick=527 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.418 tick=527 server=True id=1 side=1 x=7.000 z=4.000 reject=52 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.418 tick=527 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=17.518 tick=530 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.518 tick=530 server=True id=1 side=1 x=7.000 z=4.000 reject=53 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.518 tick=530 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.618 tick=533 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.618 tick=533 server=True id=1 side=1 x=7.000 z=4.000 reject=53 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.618 tick=533 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=17.718 tick=536 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.718 tick=536 server=True id=1 side=1 x=7.000 z=4.000 reject=54 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.718 tick=536 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.819 tick=539 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.819 tick=539 server=True id=1 side=1 x=7.000 z=4.000 reject=54 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.819 tick=539 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=17.919 tick=542 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.919 tick=542 server=True id=1 side=1 x=7.000 z=4.000 reject=55 rtt=0 ball=False score=1
+HW2_SAMPLE t=17.919 tick=542 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.019 tick=545 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.019 tick=545 server=True id=1 side=1 x=7.000 z=4.000 reject=55 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.019 tick=545 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=18.119 tick=548 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.119 tick=548 server=True id=1 side=1 x=7.000 z=4.000 reject=56 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.119 tick=548 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.219 tick=551 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.219 tick=551 server=True id=1 side=1 x=7.000 z=4.000 reject=56 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.219 tick=551 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=18.319 tick=554 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.319 tick=554 server=True id=1 side=1 x=7.000 z=4.000 reject=57 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.319 tick=554 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.419 tick=557 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.419 tick=557 server=True id=1 side=1 x=7.000 z=4.000 reject=57 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.419 tick=557 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.519 tick=560 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.519 tick=560 server=True id=1 side=1 x=7.000 z=4.000 reject=57 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.519 tick=560 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=18.620 tick=563 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.620 tick=563 server=True id=1 side=1 x=7.000 z=4.000 reject=58 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.620 tick=563 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.720 tick=566 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.720 tick=566 server=True id=1 side=1 x=7.000 z=4.000 reject=58 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.720 tick=566 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=18.820 tick=569 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.820 tick=569 server=True id=1 side=1 x=7.000 z=4.000 reject=59 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.820 tick=569 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.920 tick=572 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.920 tick=572 server=True id=1 side=1 x=7.000 z=4.000 reject=59 rtt=0 ball=False score=1
+HW2_SAMPLE t=18.920 tick=572 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=19.020 tick=575 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.020 tick=575 server=True id=1 side=1 x=7.000 z=4.000 reject=60 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.020 tick=575 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.120 tick=578 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.120 tick=578 server=True id=1 side=1 x=7.000 z=4.000 reject=60 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.120 tick=578 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=19.220 tick=581 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.220 tick=581 server=True id=1 side=1 x=7.000 z=4.000 reject=61 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.220 tick=581 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.320 tick=584 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.320 tick=584 server=True id=1 side=1 x=7.000 z=4.000 reject=61 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.320 tick=584 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=19.421 tick=587 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.421 tick=587 server=True id=1 side=1 x=7.000 z=4.000 reject=62 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.421 tick=587 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.521 tick=590 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.521 tick=590 server=True id=1 side=1 x=7.000 z=4.000 reject=62 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.521 tick=590 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.621 tick=593 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.621 tick=593 server=True id=1 side=1 x=7.000 z=4.000 reject=62 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.621 tick=593 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.721 tick=596 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.721 tick=596 server=True id=1 side=1 x=7.000 z=4.000 reject=62 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.721 tick=596 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.821 tick=599 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.821 tick=599 server=True id=1 side=1 x=7.000 z=4.000 reject=62 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.821 tick=599 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=19.921 tick=602 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.921 tick=602 server=True id=1 side=1 x=7.000 z=4.000 reject=63 rtt=0 ball=False score=1
+HW2_SAMPLE t=19.921 tick=602 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.021 tick=605 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.021 tick=605 server=True id=1 side=1 x=7.000 z=4.000 reject=63 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.021 tick=605 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=20.121 tick=608 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.121 tick=608 server=True id=1 side=1 x=7.000 z=4.000 reject=64 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.121 tick=608 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.221 tick=611 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.221 tick=611 server=True id=1 side=1 x=7.000 z=4.000 reject=64 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.221 tick=611 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=20.321 tick=614 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.321 tick=614 server=True id=1 side=1 x=7.000 z=4.000 reject=65 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.321 tick=614 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.421 tick=617 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.421 tick=617 server=True id=1 side=1 x=7.000 z=4.000 reject=65 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.421 tick=617 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.521 tick=620 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.521 tick=620 server=True id=1 side=1 x=7.000 z=4.000 reject=65 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.521 tick=620 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.621 tick=623 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.621 tick=623 server=True id=1 side=1 x=7.000 z=4.000 reject=65 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.621 tick=623 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.722 tick=626 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.722 tick=626 server=True id=1 side=1 x=7.000 z=4.000 reject=65 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.722 tick=626 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=20.822 tick=629 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.822 tick=629 server=True id=1 side=1 x=7.000 z=4.000 reject=66 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.822 tick=629 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.922 tick=632 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.922 tick=632 server=True id=1 side=1 x=7.000 z=4.000 reject=66 rtt=0 ball=False score=1
+HW2_SAMPLE t=20.922 tick=632 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=21.022 tick=635 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.022 tick=635 server=True id=1 side=1 x=7.000 z=4.000 reject=67 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.022 tick=635 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.122 tick=638 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.122 tick=638 server=True id=1 side=1 x=7.000 z=4.000 reject=67 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.122 tick=638 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=21.222 tick=641 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.222 tick=641 server=True id=1 side=1 x=7.000 z=4.000 reject=68 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.222 tick=641 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.322 tick=644 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.322 tick=644 server=True id=1 side=1 x=7.000 z=4.000 reject=68 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.322 tick=644 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.422 tick=647 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.422 tick=647 server=True id=1 side=1 x=7.000 z=4.000 reject=68 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.422 tick=647 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.522 tick=650 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.522 tick=650 server=True id=1 side=1 x=7.000 z=4.000 reject=68 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.522 tick=650 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=21.622 tick=653 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.622 tick=653 server=True id=1 side=1 x=7.000 z=4.000 reject=69 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.622 tick=653 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.722 tick=656 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.722 tick=656 server=True id=1 side=1 x=7.000 z=4.000 reject=69 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.722 tick=656 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=21.822 tick=659 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.822 tick=659 server=True id=1 side=1 x=7.000 z=4.000 reject=70 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.822 tick=659 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.922 tick=662 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.922 tick=662 server=True id=1 side=1 x=7.000 z=4.000 reject=70 rtt=0 ball=False score=1
+HW2_SAMPLE t=21.922 tick=662 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=22.022 tick=665 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.022 tick=665 server=True id=1 side=1 x=7.000 z=4.000 reject=71 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.022 tick=665 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.122 tick=668 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.122 tick=668 server=True id=1 side=1 x=7.000 z=4.000 reject=71 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.122 tick=668 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.222 tick=671 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.222 tick=671 server=True id=1 side=1 x=7.000 z=4.000 reject=71 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.222 tick=671 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.323 tick=674 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.323 tick=674 server=True id=1 side=1 x=7.000 z=4.000 reject=71 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.323 tick=674 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=22.423 tick=677 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.423 tick=677 server=True id=1 side=1 x=7.000 z=4.000 reject=72 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.423 tick=677 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.523 tick=681 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.523 tick=681 server=True id=1 side=1 x=7.000 z=4.000 reject=72 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.523 tick=681 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=22.623 tick=684 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.623 tick=684 server=True id=1 side=1 x=7.000 z=4.000 reject=73 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.623 tick=684 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.723 tick=687 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.723 tick=687 server=True id=1 side=1 x=7.000 z=4.000 reject=73 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.723 tick=687 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=22.823 tick=690 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.823 tick=690 server=True id=1 side=1 x=7.000 z=4.000 reject=74 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.823 tick=690 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.923 tick=693 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.923 tick=693 server=True id=1 side=1 x=7.000 z=4.000 reject=74 rtt=0 ball=False score=1
+HW2_SAMPLE t=22.923 tick=693 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=23.023 tick=696 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.023 tick=696 server=True id=1 side=1 x=7.000 z=4.000 reject=75 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.023 tick=696 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.123 tick=699 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.123 tick=699 server=True id=1 side=1 x=7.000 z=4.000 reject=75 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.123 tick=699 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=23.223 tick=702 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.223 tick=702 server=True id=1 side=1 x=7.000 z=4.000 reject=76 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.223 tick=702 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=23.323 tick=705 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.323 tick=705 server=True id=1 side=1 x=7.000 z=4.000 reject=77 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.323 tick=705 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.423 tick=708 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.423 tick=708 server=True id=1 side=1 x=7.000 z=4.000 reject=77 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.423 tick=708 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.523 tick=711 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.523 tick=711 server=True id=1 side=1 x=7.000 z=4.000 reject=77 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.523 tick=711 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=23.623 tick=714 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.623 tick=714 server=True id=1 side=1 x=7.000 z=4.000 reject=78 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.623 tick=714 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.723 tick=717 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.723 tick=717 server=True id=1 side=1 x=7.000 z=4.000 reject=78 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.723 tick=717 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
+HW2_SAMPLE t=23.823 tick=720 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.823 tick=720 server=True id=1 side=1 x=7.000 z=4.000 reject=79 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.823 tick=720 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.923 tick=723 server=True id=0 side=0 x=-7.000 z=-1.600 reject=27 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.923 tick=723 server=True id=1 side=1 x=7.000 z=4.000 reject=79 rtt=0 ball=False score=1
+HW2_SAMPLE t=23.923 tick=723 server=True id=2 side=2 x=0.000 z=0.000 reject=0 rtt=0 ball=False score=1
+[Server] Rejected input from client 1: too fast.
