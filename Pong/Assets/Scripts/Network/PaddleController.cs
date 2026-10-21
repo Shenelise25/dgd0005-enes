@@ -13,6 +13,10 @@ public class PaddleController : NetworkBehaviour
     [SerializeField] private float speed = 8f;
     private const int Spectator = 2;
     private float _serverAxis;
+    private const double MinInputGap = 0.030;
+    private double _lastInputTime = -1;
+    public int RejectedInputs;
+    private System.Func<string> _rejectedPanel;
     public override void OnStartNetwork() => TimeManager.OnTick += OnTick;
     public override void OnStopNetwork() => TimeManager.OnTick -= OnTick;
     private void Awake() => Side.OnChange += SideChanged;
@@ -20,6 +24,11 @@ public class PaddleController : NetworkBehaviour
     private void Register() { if (!All.Contains(this)) All.Add(this); }
     public override void OnStartServer()
     {
+        _serverAxis = 0;
+        _lastInputTime = -1;
+        RejectedInputs = 0;
+        _rejectedPanel = () => $"Rejected inputs (paddle {OwnerId}): {RejectedInputs}";
+        ConnectionHud.Panels.Add(_rejectedPanel);
         Register();
         bool left = All.Exists(p => p != this && p.IsServerInitialized && p.Side.Value == 0);
         bool right = All.Exists(p => p != this && p.IsServerInitialized && p.Side.Value == 1);
@@ -36,6 +45,8 @@ public class PaddleController : NetworkBehaviour
     }
     public override void OnStopServer()
     {
+        ConnectionHud.Panels.Remove(_rejectedPanel);
+        _rejectedPanel = null;
         GameState.Announce($"Client {OwnerId} left: {SideName(Side.Value)}");
         All.Remove(this);
     }
@@ -79,6 +90,14 @@ public class PaddleController : NetworkBehaviour
         if (float.IsNaN(axis)) return;
         axis = Mathf.Clamp(axis, -1f, 1f);
         if (Side.Value == Spectator) return;
+        double now = TimeManager.TicksToTime(TimeManager.Tick);
+        if (_lastInputTime >= 0 && now - _lastInputTime < MinInputGap)
+        {
+            RejectedInputs++;
+            Debug.Log($"[Server] Rejected input from client {OwnerId}: too fast.");
+            return;
+        }
+        _lastInputTime = now;
         _serverAxis = axis;
     }
     [ServerRpc]
