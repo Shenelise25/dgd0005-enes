@@ -16,6 +16,8 @@ public class PaddleController : NetworkBehaviour
     private float _serverAxis;
     private const double MinInputGap = 0.030;
     private double _lastInputTime = -1;
+    private const double MinServeGap = 1.0;
+    private double _lastServeTime = -1;
     public int RejectedInputs;
     private System.Func<string> _rejectedPanel;
     private NetworkTransform _networkTransform;
@@ -32,6 +34,7 @@ public class PaddleController : NetworkBehaviour
     {
         _serverAxis = 0;
         _lastInputTime = -1;
+        _lastServeTime = -1;
         RejectedInputs = 0;
         _rejectedPanel = () => $"Rejected inputs (paddle {OwnerId}): {RejectedInputs}";
         ConnectionHud.Panels.Add(_rejectedPanel);
@@ -122,6 +125,13 @@ public class PaddleController : NetworkBehaviour
         var state = GameState.Instance;
         var ball = NetworkBall.Instance;
         if (state == null || ball == null || Side.Value == 2) return;
+        double now = TimeManager.TicksToTime(TimeManager.Tick);
+        if (_lastServeTime >= 0 && now - _lastServeTime < MinServeGap)
+        {
+            TargetRefused(Owner, "TOO FAST");
+            return;
+        }
+        _lastServeTime = now;
         if (Side.Value != state.ServingSide.Value || ball.InPlay.Value) return;
         ball.Serve(1-Side.Value);
         GameState.Announce($"{SideName(Side.Value)} served");
@@ -129,6 +139,8 @@ public class PaddleController : NetworkBehaviour
     [ObserversRpc]
     public void AnnounceGoal(int left, int right)
         => ConnectionHud.Flash($"{SideName(Side.Value)} scored! {left} : {right}");
+    [TargetRpc]
+    private void TargetRefused(NetworkConnection target, string why) => ConnectionHud.Flash(why);
     [TargetRpc]
     public void YouServe(NetworkConnection target) => ConnectionHud.Flash("YOU SERVE");
 }
