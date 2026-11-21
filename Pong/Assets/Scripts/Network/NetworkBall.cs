@@ -21,6 +21,20 @@ public class NetworkBall : NetworkBehaviour
         transform.position = new Vector3(0,Court.BallY,0);
         Paint();
     }
+    // A departing player ends the rally; the remaining player must be able to serve.
+    public void ServerPlayersChanged()
+    {
+        if (!IsServerInitialized) return;
+        ResetBall();
+        var state = GameState.Instance;
+        if (state == null) return;
+        bool servingSidePresent = PaddleController.All.Exists(p => p != null
+            && p.IsServerInitialized && p.Side.Value == state.ServingSide.Value);
+        if (servingSidePresent) return;
+        var remaining = PaddleController.All.Find(p => p != null
+            && p.IsServerInitialized && p.Side.Value != 2);
+        if (remaining != null) state.ServingSide.Value = remaining.Side.Value;
+    }
     public void Serve(int towardSide)
     {
         if (!IsServerInitialized || InPlay.Value || (towardSide != 0 && towardSide != 1)) return;

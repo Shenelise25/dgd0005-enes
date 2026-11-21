@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using FishNet;
 using FishNet.Managing;
+using FishNet.Transporting;
 using FishNet.Managing.Statistic;
 using FishNet.Editing.NetworkProfiler;
 using UnityEngine;
@@ -61,22 +62,39 @@ public class ConnectionHud : MonoBehaviour
     {
         if (manager == null) return;
         GUILayout.BeginArea(new Rect(12,12,330,Screen.height-24), GUI.skin.box);
-        GUILayout.Label("PONG | DGD0005 Week 06");
-        if (GUILayout.Button("Start Host"))
+        GUILayout.Label("PONG | DGD0005 Week 05");
+        address = GUILayout.TextField(address);
+        var transport = manager.TransportManager.Transport;
+        LocalConnectionState serverState = transport.GetConnectionState(true);
+        LocalConnectionState clientState = transport.GetConnectionState(false);
+        ushort port = transport.GetPort();
+        GUILayout.BeginHorizontal();
+        if (serverState == LocalConnectionState.Stopped && GUILayout.Button("Start Server"))
+            manager.ServerManager.StartConnection();
+        else if (serverState == LocalConnectionState.Started && GUILayout.Button("Stop Server"))
+            manager.ServerManager.StopConnection(true);
+        if (serverState == LocalConnectionState.Stopped && clientState == LocalConnectionState.Stopped
+            && GUILayout.Button("Start Host"))
         {
-            if (manager.ServerManager.StartConnection()) manager.ClientManager.StartConnection("127.0.0.1",7770);
+            manager.ServerManager.StartConnection();
+            manager.ClientManager.StartConnection("127.0.0.1", port);
         }
-        if (GUILayout.Button("Stop Host"))
+        if (serverState == LocalConnectionState.Started && clientState == LocalConnectionState.Started
+            && GUILayout.Button("Stop Host"))
         {
             manager.ClientManager.StopConnection();
             manager.ServerManager.StopConnection(true);
         }
-        address = GUILayout.TextField(address);
-        if (GUILayout.Button(manager.IsServerStarted ? "Stop Server" : "Start Server"))
-        { if (manager.IsServerStarted) manager.ServerManager.StopConnection(true); else manager.ServerManager.StartConnection(); }
-        if (GUILayout.Button(manager.IsClientStarted ? "Stop Client" : "Start Client"))
-        { if (manager.IsClientStarted) manager.ClientManager.StopConnection(); else manager.ClientManager.StartConnection(address,7770); }
+        GUILayout.EndHorizontal();
+        if (clientState == LocalConnectionState.Stopped && GUILayout.Button("Start Client"))
+            manager.ClientManager.StartConnection(address, port);
+        else if (clientState == LocalConnectionState.Started && GUILayout.Button("Stop Client"))
+            manager.ClientManager.StopConnection();
+        GUILayout.Label($"Server: {serverState} | Client: {clientState} | Port: {port}");
         GUILayout.Label($"RTT: {manager.TimeManager.RoundTripTime} ms | Tick: {manager.TimeManager.Tick}\nTick rate: {manager.TimeManager.TickRate} | Clients: {manager.ServerManager.Clients.Count}");
+        if (manager.IsClientStarted)
+            GUILayout.Label($"Client: my id = {manager.ClientManager.Connection.ClientId}");
+        GUILayout.Label($"PaddleController.All.Count = {PaddleController.All.Count}");
         GUILayout.Label(rates);
         GUILayout.Label("W/S or arrows: move | Space: serve");
         GUILayout.Label("C: spam | X: speed hack | T: teleport");

@@ -43,7 +43,7 @@ public class PaddleController : NetworkBehaviour
         bool right = All.Exists(p => p != this && p.IsServerInitialized && p.Side.Value == 1);
         Side.Value = !left ? 0 : !right ? 1 : 2;
         Place();
-        Debug.Log($"[Server] client {OwnerId}: {SideName(Side.Value)}");
+        Debug.Log($"[Server] Spawned paddle #{ObjectId} for client {OwnerId}: {SideName(Side.Value)}; All.Count = {All.Count}");
         GameState.Announce($"Client {OwnerId} joined: {SideName(Side.Value)}");
     }
     public override void OnStartClient()
@@ -58,8 +58,15 @@ public class PaddleController : NetworkBehaviour
         _rejectedPanel = null;
         GameState.Announce($"Client {OwnerId} left: {SideName(Side.Value)}");
         All.Remove(this);
+        if (Side.Value != Spectator && ServerManager.Started && NetworkBall.Instance != null)
+            NetworkBall.Instance.ServerPlayersChanged();
     }
-    public override void OnStopClient() { All.Remove(this); if (Local == this) Local = null; }
+    public override void OnStopClient()
+    {
+        // Stopping only the host's client must not erase the live server registry.
+        if (!IsServerInitialized) All.Remove(this);
+        if (Local == this) Local = null;
+    }
     private void SideChanged(int previous, int next, bool asServer) => Place();
     public static string SideName(int side) => side == 0 ? "LEFT" : side == 1 ? "RIGHT" : "SPECTATOR";
     private void Place()
