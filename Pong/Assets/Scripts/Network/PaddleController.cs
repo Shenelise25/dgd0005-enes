@@ -81,7 +81,7 @@ public class PaddleController : NetworkBehaviour
         if (kb.gKey.wasPressedThisFrame && GameState.Instance != null)
             GameState.Instance.LeftScore.Value = 9;
         // Test in a separate client: a host shares the server's Transform.
-        if (kb.tKey.wasPressedThisFrame && !IsServerInitialized && NetworkBall.Instance != null)
+        if (kb.tKey.wasPressedThisFrame && NetworkBall.Instance != null)
             transform.position = NetworkBall.Instance.transform.position;
         if (kb.spaceKey.wasPressedThisFrame) RequestServe();
     }
