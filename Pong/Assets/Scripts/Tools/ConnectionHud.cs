@@ -121,7 +121,7 @@ public class ConnectionHud : MonoBehaviour
         ushort port = transport.GetPort();
         GUI.enabled = !_relayBusy;
         GUILayout.BeginHorizontal();
-        if (serverState == LocalConnectionState.Stopped && GUILayout.Button("Start Server"))
+        if (serverState == LocalConnectionState.Stopped && clientState == LocalConnectionState.Stopped && GUILayout.Button("Start Server"))
         { DirectConnection(); manager.ServerManager.StartConnection(); }
         else if (serverState == LocalConnectionState.Started && GUILayout.Button("Stop Server"))
             manager.ServerManager.StopConnection(true);

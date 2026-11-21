@@ -1,6 +1,6 @@
 {
-  "passed": 13,
-  "total": 13,
+  "passed": 15,
+  "total": 15,
   "checks": {
     "host_LEFT_guest_RIGHT": true,
     "guest_G_does_not_change_host_score": true,
@@ -13,6 +13,8 @@
     "host_G_replicated_to_guest": true,
     "all_cheat_keys_exercised": true,
     "host_speed_40_exercised": true,
+    "serve_cooldown_expires_after_one_second": true,
+    "host_speed_change_affects_motion": true,
     "no_runtime_errors": true,
     "guest_screenshot_captured": true
   },

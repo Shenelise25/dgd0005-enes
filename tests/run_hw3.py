@@ -39,6 +39,11 @@ logs = {role: (evidence / f'{role}.log').read_text(encoding='utf-8', errors='rep
 rows = {role: [dict(re.findall(r'(\w+)=([^ ]+)', line)) for line in content.splitlines() if line.startswith('HW3_SAMPLE ')] for role, content in logs.items()}
 host = rows['host']
 guest = rows['client']
+server_guests = [r for r in host if r['side'] == '1']
+serve_times = sorted({float(r['serveTime']) for r in server_guests if float(r['serveTime']) >= 0})
+host_movement = [r for r in host if r['side'] == '0' and 10 <= float(r['t']) < 10.3]
+measured_speeds = [abs(float(b['z']) - float(a['z'])) * 30 / (int(b['tick']) - int(a['tick']))
+                   for a, b in zip(host_movement,host_movement[1:]) if int(b['tick']) > int(a['tick'])]
 checks = {
     'host_LEFT_guest_RIGHT': any(r['side'] == '0' for r in host) and any(r['side'] == '1' for r in guest),
     'guest_G_does_not_change_host_score': any(2.5 < float(r['t']) < 3 and r['score'] == '0' for r in host),
@@ -51,6 +56,8 @@ checks = {
     'host_G_replicated_to_guest': any(r['score'] == '9' for r in guest),
     'all_cheat_keys_exercised': all('HW3_ACTION ' + key in logs[role] for role in logs for key in ['C','X','T','G']),
     'host_speed_40_exercised': 'HW3_ACTION host speed=40' in logs['host'],
+    'serve_cooldown_expires_after_one_second': len(serve_times) >= 2 and serve_times[1] - serve_times[0] >= 1 and logs['client'].count('[Client] Flash: TOO FAST') == 1,
+    'host_speed_change_affects_motion': bool(measured_speeds) and max(measured_speeds) > 8.1 and max(measured_speeds) <= 40.1,
     'no_runtime_errors': all(not re.search(r'Exception:|NullReferenceException|error CS|Failed to start', content) for content in logs.values()),
 }
 if '--screenshots' in sys.argv:

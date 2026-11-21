@@ -14,6 +14,8 @@ public class Homework3Probe : MonoBehaviour
     private float started = -1, nextSample;
     private int stage;
     private bool captured;
+    private bool serveRetried;
+    private static readonly FieldInfo lastServeTime = typeof(PaddleController).GetField("_lastServeTime", BindingFlags.Instance | BindingFlags.NonPublic);
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void Install()
     {
@@ -30,6 +32,12 @@ public class Homework3Probe : MonoBehaviour
         if (started < 0) { started = Time.time; keyboard = InputSystem.AddDevice<Keyboard>(); }
         float t = Time.time - started;
         bool host = manager.IsServerStarted;
+        if (!host && !serveRetried && t > 4.2f)
+        {
+            paddle.RequestServe();
+            serveRetried = true;
+            Debug.Log("HW3_ACTION guest serve after cooldown");
+        }
         InputSystem.QueueStateEvent(keyboard, host && t > 10 && t < 10.06f ? new KeyboardState(Key.W) : new KeyboardState());
         float[] times = host ? new[] { 3.5f, 5f, 6f, 7f, 8f, 9f } : new[] { 2f, 3f, 4f, 5f, 6f };
         if (stage < times.Length && t > times[stage])
@@ -61,7 +69,7 @@ public class Homework3Probe : MonoBehaviour
         {
             nextSample = Time.time + .05f;
             foreach (var p in PaddleController.All)
-                Debug.Log(FormattableString.Invariant($"HW3_SAMPLE t={t:F3} host={host} id={p.OwnerId} side={p.Side.Value} x={p.transform.position.x:F3} z={p.transform.position.z:F3} score={state.LeftScore.Value} rejects={p.RejectedInputs} rtt={manager.TimeManager.RoundTripTime} ball={NetworkBall.Instance.InPlay.Value}"));
+                Debug.Log(FormattableString.Invariant($"HW3_SAMPLE t={t:F3} tick={manager.TimeManager.Tick} serveTime={(double)lastServeTime.GetValue(p):F6} host={host} id={p.OwnerId} side={p.Side.Value} x={p.transform.position.x:F3} z={p.transform.position.z:F3} score={state.LeftScore.Value} rejects={p.RejectedInputs} rtt={manager.TimeManager.RoundTripTime} ball={NetworkBall.Instance.InPlay.Value}"));
         }
         string[] args = Environment.GetCommandLineArgs();
         int shot = Array.IndexOf(args,"-hw3-screenshot");

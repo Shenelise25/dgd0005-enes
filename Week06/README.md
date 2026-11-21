@@ -1,6 +1,7 @@
 # Homework 3 — The Host Cheats, and the Join Code
 
 I continued my Homework 2 Pong project in Unity 6000.3.2f1 with FishNet 4.7.3.
+I also included my previous Week05 assignment from `hw3.zip`: its report, host diagnostics, and player-departure ball reset and serve transfer. I merged these files with the new Week06 changes instead of replacing the current project.
 This report separates the implemented behavior from tests I have actually recorded.
 
 ## Before starting
@@ -111,9 +112,9 @@ If hosting fails immediately, check project linking, Relay enablement and intern
 
 I built a Windows development player successfully in Unity 6000.3.2f1 with the installed Relay packages. The C# compiler reported no errors. The asset checker reported zero errors and three warnings in unchanged FishNet source files. I removed four stale missing-component references from the template's default volume profile.
 
-I ran `python tests/run_hw3.py --screenshots` with a real UnityTransport listen host and a separate guest process on the same computer. **13/13 automated checks passed**; [the machine-readable results](evidence/test-summary.json), [host evidence](evidence/host.txt) and [guest evidence](evidence/client.txt) are included.
+I ran `python tests/run_hw3.py --screenshots` with a real UnityTransport listen host and a separate guest process on the same computer. **15/15 automated checks passed**; [the machine-readable results](evidence/test-summary.json), [host evidence](evidence/host.txt) and [guest evidence](evidence/client.txt) are included.
 
-The checks cover host LEFT/guest RIGHT, guest G isolation, targeted serve refusal, the other player's serve, guest T correction, C rejection on both players, host T/G replication, exercising all four cheat keys, applying host speed 40, absence of detected runtime errors, and guest screenshot capture. Speed-40 movement and the X clamp were exercised but their exact movement ratio was not numerically asserted in this test.
+The checks cover host LEFT/guest RIGHT, guest G isolation, targeted serve refusal, the other player's serve, guest T correction, C rejection on both players, host T/G replication, exercising all four cheat keys, applying host speed 40, expiry of the one-second serve cooldown, movement exceeding speed 8 after the host's speed edit, absence of detected runtime errors, and guest screenshot capture. The exact five-times movement ratio and the X clamp were not separately numerically asserted.
 
 These are automated loopback observations, not manual keyboard-focus tests or an internet Relay test. I have not yet created a live Relay allocation, measured Relay RTT, tested with my sibling across two networks, played the required partner match to 3, or completed the separate-partner-repository swap. The connection card remains explicitly incomplete until those actions are performed. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
 

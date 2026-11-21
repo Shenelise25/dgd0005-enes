@@ -1,529 +1,546 @@
-HW3_SAMPLE t=0.000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=0.000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=0.059 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=0.059 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=0.110 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=0.110 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.000 tick=144 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.000 tick=144 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.051 tick=145 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.051 tick=145 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.101 tick=147 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.101 tick=147 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.152 tick=148 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.152 tick=148 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.202 tick=150 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.202 tick=150 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.253 tick=152 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.253 tick=152 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.303 tick=154 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.303 tick=154 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.353 tick=155 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.353 tick=155 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.403 tick=157 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.403 tick=157 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.454 tick=158 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=0.454 tick=158 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=0 rejects=0 rtt=0 ball=True
 [Client] Flash: LEFT scored! 1 : 0
 [Client] Flash: YOU SERVE
-HW3_SAMPLE t=0.160 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.160 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.210 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.210 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.261 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.261 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.312 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.312 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.363 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.363 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.414 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.414 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.465 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.465 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.515 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.515 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.566 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.566 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.616 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.616 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.667 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.667 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.717 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.717 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.768 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.768 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.818 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.818 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.868 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.868 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.918 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.918 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.968 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=0.968 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.020 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.020 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.070 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.070 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.120 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.120 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.171 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.171 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.221 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.221 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.271 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.271 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.321 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.321 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.372 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.372 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.423 host=False id=1 side=0 x=-1.662 z=0.063 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.423 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.474 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.474 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.525 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.525 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.575 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.575 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.625 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.625 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.675 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.675 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.725 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.725 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.776 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.776 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.827 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.827 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.993 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=1.993 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.504 tick=160 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.504 tick=160 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.555 tick=161 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.555 tick=161 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.605 tick=163 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.051 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.605 tick=163 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.655 tick=164 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.655 tick=164 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.705 tick=166 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.705 tick=166 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.755 tick=167 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.755 tick=167 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.805 tick=169 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.805 tick=169 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.855 tick=170 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.855 tick=170 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.905 tick=172 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.905 tick=172 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.955 tick=173 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=0.955 tick=173 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.006 tick=175 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.006 tick=175 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.057 tick=177 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.057 tick=177 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.108 tick=178 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.108 tick=178 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.160 tick=180 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.160 tick=180 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.211 tick=181 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.211 tick=181 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.261 tick=183 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.261 tick=183 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.311 tick=184 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.311 tick=184 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.362 tick=186 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.362 tick=186 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.412 tick=187 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.412 tick=187 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.463 tick=189 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.463 tick=189 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.513 tick=190 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.513 tick=190 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.563 tick=192 serveTime=-1.000000 host=False id=1 side=0 x=-7.000 z=0.267 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.563 tick=192 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.613 tick=193 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.613 tick=193 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.663 tick=195 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.663 tick=195 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.714 tick=196 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.714 tick=196 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.764 tick=198 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.764 tick=198 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.814 tick=199 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.814 tick=199 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.865 tick=201 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.865 tick=201 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.915 tick=203 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.915 tick=203 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.966 tick=204 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=1.966 tick=204 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
 HW3_ACTION G
-HW3_SAMPLE t=2.044 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.044 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.094 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.094 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.145 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.145 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.196 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.196 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.246 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.246 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.296 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.296 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.346 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.346 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.397 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.397 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.448 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.448 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.500 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.500 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.551 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.551 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.601 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.601 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.651 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.651 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.703 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.703 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.755 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.755 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.806 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.806 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.856 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.856 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.906 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.906 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.957 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=2.957 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.017 tick=206 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.017 tick=206 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.067 tick=207 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.067 tick=207 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.117 tick=209 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.117 tick=209 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.168 tick=210 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.168 tick=210 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.218 tick=212 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.218 tick=212 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.268 tick=213 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.268 tick=213 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.320 tick=215 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.320 tick=215 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.370 tick=216 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.370 tick=216 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.420 tick=218 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.420 tick=218 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.472 tick=219 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.472 tick=219 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=1 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.522 tick=221 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.522 tick=221 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.573 tick=222 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.573 tick=222 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.623 tick=224 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.623 tick=224 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.675 tick=226 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.675 tick=226 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.725 tick=227 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.725 tick=227 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.776 tick=229 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.776 tick=229 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.826 tick=230 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.826 tick=230 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.876 tick=232 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.876 tick=232 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.926 tick=233 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.926 tick=233 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.982 tick=235 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=2.982 tick=235 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
 HW3_ACTION guest double serve
-HW3_SAMPLE t=3.007 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=3.007 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=3.034 tick=236 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=3.034 tick=236 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
 [Client] Flash: TOO FAST
-HW3_SAMPLE t=3.058 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.058 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.108 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.108 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.159 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.159 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.210 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.210 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.261 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.261 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.312 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.312 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.364 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.364 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.414 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.414 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.465 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.465 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.515 host=False id=1 side=0 x=0.000 z=0.175 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.515 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.565 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.565 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.615 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.615 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.665 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.665 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.716 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.716 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.766 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.766 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.817 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.817 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.867 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.867 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.919 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.919 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.969 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=3.969 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.086 tick=238 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.086 tick=238 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.137 tick=240 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.137 tick=240 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.187 tick=241 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.187 tick=241 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.238 tick=242 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.238 tick=242 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.288 tick=243 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.288 tick=243 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.338 tick=245 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.338 tick=245 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.388 tick=246 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.388 tick=246 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.439 tick=248 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.439 tick=248 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.489 tick=249 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.489 tick=249 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.539 tick=251 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.539 tick=251 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.590 tick=252 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.590 tick=252 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.640 tick=254 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.640 tick=254 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.690 tick=255 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.690 tick=255 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.741 tick=257 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.741 tick=257 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.791 tick=258 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.791 tick=258 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.842 tick=260 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.842 tick=260 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.892 tick=261 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.892 tick=261 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.943 tick=263 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.943 tick=263 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.995 tick=264 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=3.995 tick=264 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
 HW3_ACTION T
-HW3_SAMPLE t=4.019 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.019 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.070 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.070 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.120 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.120 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.170 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.170 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.221 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.221 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.271 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.271 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.321 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
-HW3_SAMPLE t=4.321 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.047 tick=266 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.047 tick=266 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.098 tick=267 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.098 tick=267 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.149 tick=269 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.149 tick=269 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_ACTION guest serve after cooldown
+HW3_SAMPLE t=4.200 tick=270 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.200 tick=270 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.250 tick=272 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.250 tick=272 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.300 tick=273 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.300 tick=273 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.350 tick=275 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.350 tick=275 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.400 tick=276 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=True
+HW3_SAMPLE t=4.400 tick=276 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=True
 [Client] Flash: RIGHT scored! 9 : 1
-HW3_SAMPLE t=4.373 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.373 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.424 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.424 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.474 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.474 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.525 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.525 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.575 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.575 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.625 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.625 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.676 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.676 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.727 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.727 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.777 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.777 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.828 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.828 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.879 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.879 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.929 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.929 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.980 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=4.980 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.452 tick=278 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.452 tick=278 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.502 tick=280 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.502 tick=280 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.554 tick=281 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.554 tick=281 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.604 tick=283 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.604 tick=283 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.654 tick=284 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.654 tick=284 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.704 tick=286 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.704 tick=286 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.756 tick=287 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.756 tick=287 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.806 tick=289 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.806 tick=289 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.856 tick=290 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.856 tick=290 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.906 tick=292 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.906 tick=292 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.956 tick=293 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=4.956 tick=293 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
 HW3_ACTION C
-HW3_SAMPLE t=5.030 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.030 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.080 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.080 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.130 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.130 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.181 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.181 host=False id=2 side=1 x=7.000 z=0.176 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.232 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.232 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.282 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.282 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.333 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.333 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.383 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.383 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.434 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.434 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.485 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.485 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.535 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.535 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.586 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.586 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.638 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.638 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.688 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.688 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.738 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.738 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.788 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.788 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.838 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.838 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.889 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.889 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.939 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.939 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.989 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=5.989 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.007 tick=295 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.007 tick=295 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.057 tick=296 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.057 tick=296 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.000 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.107 tick=298 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.107 tick=298 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.066 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.157 tick=299 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.157 tick=299 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.207 tick=301 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.207 tick=301 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.258 tick=302 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.258 tick=302 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.309 tick=304 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.309 tick=304 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.359 tick=305 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.359 tick=305 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.409 tick=307 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.409 tick=307 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.460 tick=308 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.460 tick=308 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.510 tick=310 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.510 tick=310 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.560 tick=311 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.560 tick=311 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.610 tick=313 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=0.711 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.610 tick=313 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.660 tick=314 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.660 tick=314 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.712 tick=316 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.712 tick=316 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.765 tick=317 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.765 tick=317 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.815 tick=319 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.815 tick=319 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.866 tick=320 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.866 tick=320 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.916 tick=322 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.916 tick=322 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.968 tick=324 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=5.968 tick=324 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
 HW3_ACTION X
-HW3_SAMPLE t=6.040 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.040 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.091 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.091 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.141 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.141 host=False id=2 side=1 x=7.000 z=0.388 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.192 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.192 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.242 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.242 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.292 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.292 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.343 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.343 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.394 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.394 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.444 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.444 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.495 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.495 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.547 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.547 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.597 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.597 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.647 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.647 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.699 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.699 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.749 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.749 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.799 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.799 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.849 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.849 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.899 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.899 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.950 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=6.950 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.050 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.050 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.101 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.101 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.151 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.151 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.201 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.201 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.252 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.252 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.303 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.303 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.353 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.353 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.404 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.404 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.455 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.455 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.506 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.506 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.556 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.556 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.691 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.691 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.759 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.759 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.811 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.811 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.861 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.861 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.912 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.912 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.962 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=7.962 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.014 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.014 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.065 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.065 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.115 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.115 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.167 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.167 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.219 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.219 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.270 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.270 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.320 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.320 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.371 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.371 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.422 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.422 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.472 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.472 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.522 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.522 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.574 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.574 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.625 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.625 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.675 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.675 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.725 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.725 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.776 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.776 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.826 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.826 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.876 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.876 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.926 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.926 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.977 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=8.977 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.028 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.028 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.080 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.080 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.132 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.132 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.182 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.182 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.232 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.232 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.283 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.283 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.333 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.333 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.383 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.383 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.433 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.433 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.484 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.484 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.537 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.537 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.588 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.588 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.638 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.638 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.689 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.689 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.739 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.739 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.790 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.790 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.840 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.840 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.891 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.891 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.941 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.941 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.992 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=9.992 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.042 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.042 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.093 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.093 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.144 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.144 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.194 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.194 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.245 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.245 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.296 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.296 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.347 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.347 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.398 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.398 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.449 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.449 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.500 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.500 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.552 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.552 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.604 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.604 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.656 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.656 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.707 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.707 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.758 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.758 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.809 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.809 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.859 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.859 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.909 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.909 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.959 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=10.959 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.010 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.010 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.061 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.061 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.111 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.111 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.163 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.163 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.213 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.213 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.264 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.264 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.314 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.314 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.364 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.364 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.414 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.414 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.464 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.464 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.515 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.515 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.566 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.566 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.617 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.617 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.669 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.669 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.719 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.719 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.769 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.769 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.820 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.820 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.871 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.871 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.922 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.922 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.973 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=11.973 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.024 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.024 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.074 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.074 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.124 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.124 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.176 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.176 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.227 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.227 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.277 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.277 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.328 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.328 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.379 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.379 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.430 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.430 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.480 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.480 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.531 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.531 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.581 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.581 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.632 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.632 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.683 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.683 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.733 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.733 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.783 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.783 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.834 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.834 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.884 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.884 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.935 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.935 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.985 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=12.985 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.035 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.035 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.085 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.085 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.136 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.136 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.186 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.186 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.238 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.238 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.288 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.288 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.338 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
-HW3_SAMPLE t=13.338 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.018 tick=325 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.018 tick=325 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.070 tick=327 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.070 tick=327 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.267 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.120 tick=328 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.120 tick=328 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.440 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.171 tick=330 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.171 tick=330 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.221 tick=331 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.221 tick=331 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.273 tick=333 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.273 tick=333 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.323 tick=334 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.323 tick=334 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.373 tick=336 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.373 tick=336 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.425 tick=337 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.425 tick=337 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.476 tick=339 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.476 tick=339 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.526 tick=340 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.526 tick=340 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.576 tick=342 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.576 tick=342 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.626 tick=343 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.626 tick=343 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.676 tick=345 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.676 tick=345 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.726 tick=346 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.726 tick=346 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.777 tick=348 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.777 tick=348 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.827 tick=349 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.827 tick=349 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.877 tick=351 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.877 tick=351 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.927 tick=352 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.927 tick=352 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.978 tick=354 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=6.978 tick=354 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.028 tick=355 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.028 tick=355 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.078 tick=357 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.078 tick=357 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.128 tick=358 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.128 tick=358 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.178 tick=360 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.178 tick=360 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.228 tick=361 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.228 tick=361 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.279 tick=363 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.279 tick=363 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.329 tick=364 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.329 tick=364 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.381 tick=366 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.381 tick=366 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.432 tick=367 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.432 tick=367 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.482 tick=369 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.482 tick=369 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.533 tick=370 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.533 tick=370 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.583 tick=372 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.583 tick=372 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.633 tick=373 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.633 tick=373 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.683 tick=375 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.683 tick=375 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.734 tick=376 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.734 tick=376 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.784 tick=378 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.784 tick=378 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.834 tick=379 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.834 tick=379 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.884 tick=381 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.884 tick=381 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.935 tick=383 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.935 tick=383 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.986 tick=384 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=7.986 tick=384 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.036 tick=386 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.036 tick=386 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.087 tick=387 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.087 tick=387 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.137 tick=389 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.137 tick=389 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.188 tick=390 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.188 tick=390 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.238 tick=392 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.238 tick=392 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.288 tick=393 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.288 tick=393 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.338 tick=395 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.338 tick=395 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.388 tick=396 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.388 tick=396 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.438 tick=398 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.438 tick=398 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.490 tick=399 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.490 tick=399 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.541 tick=401 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.541 tick=401 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.592 tick=402 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.592 tick=402 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.642 tick=404 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.642 tick=404 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.692 tick=405 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.692 tick=405 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.742 tick=407 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.742 tick=407 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.792 tick=408 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.792 tick=408 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.842 tick=410 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.842 tick=410 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.892 tick=411 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.892 tick=411 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.942 tick=413 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.942 tick=413 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.994 tick=414 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=8.994 tick=414 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.046 tick=416 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.046 tick=416 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.096 tick=417 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.096 tick=417 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.147 tick=419 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.147 tick=419 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.197 tick=420 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.197 tick=420 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.247 tick=422 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.247 tick=422 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.297 tick=423 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.297 tick=423 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.347 tick=425 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.347 tick=425 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.397 tick=426 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.397 tick=426 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.448 tick=428 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.448 tick=428 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.499 tick=429 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.499 tick=429 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.549 tick=431 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.549 tick=431 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.599 tick=432 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.599 tick=432 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.651 tick=434 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.651 tick=434 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.701 tick=435 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.701 tick=435 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.751 tick=437 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.751 tick=437 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.802 tick=439 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.802 tick=439 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.852 tick=440 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.852 tick=440 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.902 tick=442 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.902 tick=442 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.953 tick=443 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=9.953 tick=443 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.003 tick=445 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.003 tick=445 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.053 tick=446 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.053 tick=446 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.104 tick=448 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.104 tick=448 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.156 tick=449 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.156 tick=449 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.207 tick=451 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.207 tick=451 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.258 tick=452 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.258 tick=452 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.309 tick=454 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.309 tick=454 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.359 tick=455 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.359 tick=455 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.409 tick=457 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.409 tick=457 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.461 tick=458 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.461 tick=458 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.513 tick=460 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.513 tick=460 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.564 tick=461 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.564 tick=461 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.614 tick=463 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.614 tick=463 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.664 tick=464 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.664 tick=464 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.715 tick=466 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.715 tick=466 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.766 tick=467 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.766 tick=467 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.816 tick=469 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.816 tick=469 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.866 tick=470 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.866 tick=470 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.916 tick=472 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.916 tick=472 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.966 tick=473 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=10.966 tick=473 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.017 tick=475 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.017 tick=475 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.068 tick=476 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.068 tick=476 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.119 tick=478 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.119 tick=478 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.170 tick=480 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.170 tick=480 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.220 tick=481 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.220 tick=481 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.270 tick=483 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.270 tick=483 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.321 tick=484 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.321 tick=484 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.372 tick=486 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.372 tick=486 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.422 tick=487 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.422 tick=487 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.472 tick=489 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.472 tick=489 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.522 tick=490 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.522 tick=490 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.572 tick=492 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.572 tick=492 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.623 tick=493 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.623 tick=493 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.673 tick=495 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.673 tick=495 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.724 tick=496 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.724 tick=496 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.775 tick=498 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.775 tick=498 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.825 tick=499 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.825 tick=499 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.875 tick=501 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.875 tick=501 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.925 tick=502 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.925 tick=502 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.976 tick=504 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=11.976 tick=504 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.026 tick=505 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.026 tick=505 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.076 tick=507 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.076 tick=507 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.127 tick=508 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.127 tick=508 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.177 tick=510 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.177 tick=510 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.227 tick=511 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.227 tick=511 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.277 tick=513 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.277 tick=513 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.327 tick=514 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.327 tick=514 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.379 tick=516 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.379 tick=516 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.431 tick=517 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.431 tick=517 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.482 tick=519 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.482 tick=519 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.533 tick=520 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.533 tick=520 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.584 tick=522 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.584 tick=522 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.636 tick=524 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.636 tick=524 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.687 tick=525 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.687 tick=525 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.737 tick=527 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.737 tick=527 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.787 tick=528 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.787 tick=528 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.838 tick=530 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.838 tick=530 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.888 tick=531 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.888 tick=531 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.938 tick=533 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.938 tick=533 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.988 tick=534 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=12.988 tick=534 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.038 tick=536 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.038 tick=536 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.089 tick=537 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.089 tick=537 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.139 tick=539 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.139 tick=539 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.189 tick=540 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.189 tick=540 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.239 tick=542 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.239 tick=542 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.289 tick=543 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.289 tick=543 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.339 tick=545 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.339 tick=545 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.389 tick=546 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.389 tick=546 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.440 tick=548 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.440 tick=548 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.492 tick=549 serveTime=-1.000000 host=False id=1 side=0 x=0.000 z=1.600 score=9 rejects=0 rtt=0 ball=False
+HW3_SAMPLE t=13.492 tick=549 serveTime=-1.000000 host=False id=2 side=1 x=7.000 z=0.533 score=9 rejects=0 rtt=0 ball=False
