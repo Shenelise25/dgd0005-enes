@@ -61,7 +61,16 @@ public class ConnectionHud : MonoBehaviour
     {
         if (manager == null) return;
         GUILayout.BeginArea(new Rect(12,12,330,Screen.height-24), GUI.skin.box);
-        GUILayout.Label("PONG | DGD0005 Week 04");
+        GUILayout.Label("PONG | DGD0005 Week 06");
+        if (GUILayout.Button("Start Host"))
+        {
+            if (manager.ServerManager.StartConnection()) manager.ClientManager.StartConnection("127.0.0.1",7770);
+        }
+        if (GUILayout.Button("Stop Host"))
+        {
+            manager.ClientManager.StopConnection();
+            manager.ServerManager.StopConnection(true);
+        }
         address = GUILayout.TextField(address);
         if (GUILayout.Button(manager.IsServerStarted ? "Stop Server" : "Start Server"))
         { if (manager.IsServerStarted) manager.ServerManager.StopConnection(true); else manager.ServerManager.StartConnection(); }
