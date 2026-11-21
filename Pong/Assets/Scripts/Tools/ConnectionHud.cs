@@ -5,6 +5,7 @@ using System.Reflection;
 using FishNet;
 using FishNet.Managing;
 using FishNet.Transporting;
+using FishNet.Transporting.UTP;
 using FishNet.Managing.Statistic;
 using FishNet.Editing.NetworkProfiler;
 using UnityEngine;
@@ -16,6 +17,9 @@ public class ConnectionHud : MonoBehaviour
     private NetworkManager manager;
     private NetworkTrafficStatistics traffic;
     private string address = "127.0.0.1";
+    private string _joinCode = "";
+    private string _relayCode = "";
+    private bool _relayBusy;
     private double serverIn, serverOut, clientIn, clientOut;
     private string rates = "Waiting for traffic";
     private float sampleStart;
@@ -58,24 +62,73 @@ public class ConnectionHud : MonoBehaviour
         serverIn = serverOut = clientIn = clientOut = 0;
         sampleStart = Time.unscaledTime;
     }
+    private async void HostViaRelay()
+    {
+        if (_relayBusy) return;
+        _relayBusy = true;
+        try
+        {
+            string code = await RelayLink.Host(manager);
+            if (this == null) return;
+            if (!manager.ServerManager.StartConnection()) throw new InvalidOperationException("Server could not start.");
+            if (!manager.ClientManager.StartConnection()) throw new InvalidOperationException("Host client could not start.");
+            _relayCode = code;
+            Debug.Log("[Relay] Join code: " + code);
+        }
+        catch (Exception error)
+        {
+            if (this == null) return;
+            _relayCode = "";
+            manager.ClientManager.StopConnection();
+            manager.ServerManager.StopConnection(true);
+            Debug.LogError("[Relay] Host failed: " + error.Message);
+            Flash("Relay host failed: " + error.Message);
+        }
+        finally { _relayBusy = false; }
+    }
+    private async void JoinViaRelay()
+    {
+        if (_relayBusy) return;
+        _relayBusy = true;
+        try
+        {
+            await RelayLink.Join(manager, _joinCode);
+            if (this == null) return;
+            if (!manager.ClientManager.StartConnection()) throw new InvalidOperationException("Client could not start.");
+        }
+        catch (Exception error)
+        {
+            if (this == null) return;
+            Debug.LogError("[Relay] Join failed: " + error.Message);
+            Flash("Relay join failed: " + error.Message);
+        }
+        finally { _relayBusy = false; }
+    }
+    private void DirectConnection()
+    {
+        var transport = manager.TransportManager.GetTransport<UnityTransport>();
+        if (transport != null) transport.SetConnectionData(address,7770,"0.0.0.0");
+    }
     private void OnGUI()
     {
         if (manager == null) return;
         GUILayout.BeginArea(new Rect(12,12,330,Screen.height-24), GUI.skin.box);
-        GUILayout.Label("PONG | DGD0005 Week 05");
+        GUILayout.Label("PONG | DGD0005 Week 06");
         address = GUILayout.TextField(address);
         var transport = manager.TransportManager.Transport;
         LocalConnectionState serverState = transport.GetConnectionState(true);
         LocalConnectionState clientState = transport.GetConnectionState(false);
         ushort port = transport.GetPort();
+        GUI.enabled = !_relayBusy;
         GUILayout.BeginHorizontal();
         if (serverState == LocalConnectionState.Stopped && GUILayout.Button("Start Server"))
-            manager.ServerManager.StartConnection();
+        { DirectConnection(); manager.ServerManager.StartConnection(); }
         else if (serverState == LocalConnectionState.Started && GUILayout.Button("Stop Server"))
             manager.ServerManager.StopConnection(true);
         if (serverState == LocalConnectionState.Stopped && clientState == LocalConnectionState.Stopped
             && GUILayout.Button("Start Host"))
         {
+            DirectConnection();
             manager.ServerManager.StartConnection();
             manager.ClientManager.StartConnection("127.0.0.1", port);
         }
@@ -84,12 +137,24 @@ public class ConnectionHud : MonoBehaviour
         {
             manager.ClientManager.StopConnection();
             manager.ServerManager.StopConnection(true);
+            _relayCode = "";
         }
         GUILayout.EndHorizontal();
         if (clientState == LocalConnectionState.Stopped && GUILayout.Button("Start Client"))
-            manager.ClientManager.StartConnection(address, port);
+        { if (serverState == LocalConnectionState.Stopped) DirectConnection(); manager.ClientManager.StartConnection(address, port); }
         else if (clientState == LocalConnectionState.Started && GUILayout.Button("Stop Client"))
             manager.ClientManager.StopConnection();
+        if (serverState == LocalConnectionState.Stopped && clientState == LocalConnectionState.Stopped)
+        {
+            if (GUILayout.Button("Host via Relay")) HostViaRelay();
+            _joinCode = GUILayout.TextField(_joinCode,6).ToUpperInvariant();
+            if (GUILayout.Button("Join via Relay")) JoinViaRelay();
+        }
+        GUI.enabled = true;
+        if (_relayBusy) GUILayout.Label("Connecting to Relay...");
+        if (!string.IsNullOrEmpty(_relayCode) && serverState == LocalConnectionState.Started)
+            GUILayout.Label("JOIN CODE: " + _relayCode, new GUIStyle(GUI.skin.label) { fontSize = 24, fontStyle = FontStyle.Bold });
+        if (serverState == LocalConnectionState.Stopped && !_relayBusy) _relayCode = "";
         GUILayout.Label($"Server: {serverState} | Client: {clientState} | Port: {port}");
         GUILayout.Label($"RTT: {manager.TimeManager.RoundTripTime} ms | Tick: {manager.TimeManager.Tick}\nTick rate: {manager.TimeManager.TickRate} | Clients: {manager.ServerManager.Clients.Count}");
         if (manager.IsClientStarted)
@@ -97,7 +162,7 @@ public class ConnectionHud : MonoBehaviour
         GUILayout.Label($"PaddleController.All.Count = {PaddleController.All.Count}");
         GUILayout.Label(rates);
         GUILayout.Label("W/S or arrows: move | Space: serve");
-        GUILayout.Label("C: spam | X: speed hack | T: teleport");
+        GUILayout.Label("C: spam | X: speed hack | T: teleport | G: score");
         if (PaddleController.Local != null) GUILayout.Label("You: " + PaddleController.SideName(PaddleController.Local.Side.Value));
         foreach (var panel in Panels) GUILayout.Label(panel());
         flashes.RemoveAll(f => f.until < Time.unscaledTime);
