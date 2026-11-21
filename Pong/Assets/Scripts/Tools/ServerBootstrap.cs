@@ -13,6 +13,7 @@ public class ServerBootstrap : MonoBehaviour
     {
         Application.runInBackground = true;
         Application.targetFrameRate = 60;
+        if (Environment.GetCommandLineArgs().Contains("-hw3-relay")) return;
         if (Environment.GetCommandLineArgs().Contains("-host"))
         {
             InstanceFinder.ServerManager.StartConnection();

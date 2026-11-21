@@ -1,0 +1,22 @@
+{
+  "passed": 7,
+  "total": 7,
+  "checks": {
+    "live_Relay_join_code_created": true,
+    "host_LEFT_guest_RIGHT": true,
+    "host_score_replicated_via_Relay": true,
+    "ball_in_play_on_both_peers": true,
+    "guest_RTT_received": true,
+    "no_runtime_errors": true,
+    "guest_screenshot_captured": true
+  },
+  "guest_RTT_ms": [
+    0,
+    67,
+    73,
+    75,
+    78,
+    83,
+    100
+  ]
+}

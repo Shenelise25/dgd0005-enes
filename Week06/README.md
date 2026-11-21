@@ -54,8 +54,7 @@ I captured the guest after the host pressed G in the automated two-process test.
 
 UnityTransport is the active transport on the NetworkManager, with direct connections on port 7770. Tugboat stays on the object unused.
 The manifest installs Multiplayer Services and the homework's FishyUnityTransport Git package.
-Unity Cloud project linking and enabling Relay must be completed in Project Settings → Services and the project's Relay dashboard.
-The repository currently has no linked cloud project ID.
+I linked the existing `Pong` cloud project in the `Shenelise` organization through Unity's Services settings. The public project ID is `5cd07c88-6c56-485a-b733-2cf050b5f6b7` and is saved in ProjectSettings so clones use the same project. Relay is operational: the live allocation and join test below succeeded.
 
 ## Step 5 — RelayLink
 
@@ -70,6 +69,14 @@ The host displays JOIN CODE while its server is running. Stop Host clears the co
 Initialization uses a distinct anonymous authentication profile per process so host and guest on one PC do not reuse the same player.
 Relay errors appear in the Console and on the initiating HUD; failures release the busy flag.
 
+I ran a live Relay test using the actual HUD host/join methods in two separate Windows player processes. The host received a six-character join code, the guest joined with that code, both players saw the ball in play, and the host's score edit reached the guest. **7/7 Relay checks passed**. Guest RTT readings after initialization were **67, 73, 75, 78, 83 and 100 ms**; the captured frame shows **67 ms**. Initial 0 ms samples precede the first ping result.
+
+![Guest connected through Relay, with RTT and replicated score](evidence/relay/guest-host-score.png)
+
+These two processes used the same physical computer and internet connection. They contacted the real Unity Relay service; this is not the required two-network partner test. The score of 9 in the screenshot is the deliberate G experiment, not a claim of a match played to 3.
+
+Results: [Relay checks](evidence/relay/test-summary.json), [host log evidence](evidence/relay/host.txt), [guest log evidence](evidence/relay/client.txt). Reproduce after building with `python tests/run_hw3.py --relay --screenshots`.
+
 ## Step 7 — Partner on another network
 
 1. Host and guest each connect to a public Relay endpoint, which forwards the game packets between them; authority remains on the host.
@@ -79,13 +86,13 @@ Relay errors appear in the Console and on the initiating HUD; failures release t
 | Connection card | Recorded value |
 | --- | --- |
 | Partner's name | My sibling; name not supplied |
-| Host / guest | Not tested across two networks |
-| Two networks | Not recorded |
-| Guest Relay RTT | Not measured |
+| Host / guest | Verified: local host LEFT and separate guest RIGHT. Planned physical run: me hosting, my sibling joining; then swap. |
+| Two networks | Current test: one computer / one connection. Planned physical run: home internet and phone hotspot; not performed yet. |
+| Guest Relay RTT | Verified same-computer Relay: 67–100 ms after initialization; 67 ms in the screenshot. Different-network RTT remains unmeasured. |
 | Guest loopback RTT | 0 ms in the captured graphical test; this is loopback, not a Relay measurement |
-| First try / fix line | Not tested |
+| First try / fix line | Live Relay smoke test passed on its first run after linking the cloud project. Different-network attempt not performed. |
 | Play to 3 and swap hosts | Pending real partner test |
-| Guest screenshot with RTT and score | Not captured |
+| Guest screenshot with RTT and score | Captured for the live same-computer Relay test above. A different-network screenshot remains pending. |
 
 I must use the same cloud project for each host's code: my partner runs my project when I host, and I run theirs when they host.
 A join code expires when its host stops.
@@ -93,7 +100,7 @@ A join code expires when its host stops.
 ### My two-computer test procedure
 
 1. On both computers, clone this repository and open `Pong` with Unity 6000.3.2f1. Wait for package installation to finish.
-2. Link the host's Unity Cloud project in Project Settings → Services, enable Relay in the dashboard, and commit the public project ID so both copies use the same project. Never commit passwords or access tokens.
+2. Keep the included Pong Unity Cloud project settings unchanged so both copies use the same project. This project has already passed a real Relay allocation and join test. Never commit passwords or access tokens.
 3. Use home internet on one computer and a phone hotspot on the other. Two computers on the same home Wi-Fi do not meet the different-network requirement.
 4. First measure a direct loopback guest on the host computer using Start Host and Start Client at 127.0.0.1. Record its HUD RTT, then stop both.
 5. Select Host via Relay, send the displayed code to my sibling, and select Join via Relay on the other computer. Do not enter an IP address.
@@ -116,7 +123,9 @@ I ran `python tests/run_hw3.py --screenshots` with a real UnityTransport listen 
 
 The checks cover host LEFT/guest RIGHT, guest G isolation, targeted serve refusal, the other player's serve, guest T correction, C rejection on both players, host T/G replication, exercising all four cheat keys, applying host speed 40, expiry of the one-second serve cooldown, movement exceeding speed 8 after the host's speed edit, absence of detected runtime errors, and guest screenshot capture. The exact five-times movement ratio and the X clamp were not separately numerically asserted.
 
-These are automated loopback observations, not manual keyboard-focus tests or an internet Relay test. I have not yet created a live Relay allocation, measured Relay RTT, tested with my sibling across two networks, played the required partner match to 3, or completed the separate-partner-repository swap. The connection card remains explicitly incomplete until those actions are performed. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
+I separately ran the live Unity Relay test described in Step 6: **7/7 checks passed**, including a real allocation, code-based guest join, RTT, ball and score replication. These observations supplement the **15/15 direct loopback checks**; they do not establish manual keyboard-focus behavior or a two-network partner match.
+
+I have not yet tested with my sibling across two networks, played that partner match to 3, or completed the separate-partner-repository swap. The connection card distinguishes measured results from the planned physical test. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
 
 ## Sources
 

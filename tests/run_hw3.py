@@ -7,10 +7,12 @@ import sys
 import time
 
 root = pathlib.Path(__file__).resolve().parent.parent
-evidence = root / 'Week06/evidence'
+relay = '--relay' in sys.argv
+evidence = root / ('Week06/evidence/relay' if relay else 'Week06/evidence')
 evidence.mkdir(parents=True, exist_ok=True)
 exe = root / 'Pong/Builds/Windows/Pong.exe'
 children = []
+join_code = None
 if '--screenshots' in sys.argv:
     (evidence / 'guest-host-score.png').unlink(missing_ok=True)
 try:
@@ -21,15 +23,18 @@ try:
         info.dwFlags |= subprocess.STARTF_USESHOWWINDOW
         info.wShowWindow = 1 if '--screenshots' in sys.argv else 0
         graphics = ['-screen-width', '1280', '-screen-height', '720', '-screen-fullscreen', '0', '-hw3-screenshot', str(evidence / 'guest-host-score.png')] if '--screenshots' in sys.argv else ['-batchmode', '-nographics']
+        connection = ['-hw3-relay'] + (['-hw3-relay-code',join_code] if role == 'client' else []) if relay else [f'-{role}']
         children.append(subprocess.Popen([str(exe), *graphics,
-            f'-{role}', '-hw3-test', '-logFile', str(log)], startupinfo=info))
+            *connection, '-hw3-test', '-logFile', str(log)], startupinfo=info))
         deadline = time.monotonic() + 40
         while not (log.exists() and '[Client] I am client' in log.read_text(encoding='utf-8', errors='replace')):
             if time.monotonic() > deadline:
                 raise TimeoutError(f'{role}: did not spawn an owned paddle')
             time.sleep(.2)
+        if relay and role == 'host':
+            join_code = re.search(r'\[Relay\] Join code: (\w+)',log.read_text(encoding='utf-8',errors='replace'))[1]
     for child in children:
-        child.wait(timeout=45)
+        child.wait(timeout=65 if relay else 45)
 finally:
     for child in children:
         if child.poll() is None:
@@ -62,10 +67,21 @@ checks = {
 }
 if '--screenshots' in sys.argv:
     checks['guest_screenshot_captured'] = (evidence / 'guest-host-score.png').exists()
+if relay:
+    checks = {
+        'live_Relay_join_code_created': bool(join_code and len(join_code) == 6),
+        'host_LEFT_guest_RIGHT': checks['host_LEFT_guest_RIGHT'],
+        'host_score_replicated_via_Relay': checks['host_G_replicated_to_guest'],
+        'ball_in_play_on_both_peers': all(any(r['ball'] == 'True' for r in rows[role]) for role in rows),
+        'guest_RTT_received': any(int(r['rtt']) > 0 for r in guest),
+        'no_runtime_errors': checks['no_runtime_errors'] and all('[Relay] Host failed' not in text and '[Relay] Join failed' not in text for text in logs.values()),
+    }
+    if '--screenshots' in sys.argv:
+        checks['guest_screenshot_captured'] = (evidence / 'guest-host-score.png').exists()
 report = {'passed': sum(checks.values()), 'total': len(checks), 'checks': checks,
           'guest_RTT_ms': sorted({int(r['rtt']) for r in guest})}
 (evidence / 'test-summary.json').write_text(json.dumps(report,indent=2) + '\n',encoding='utf-8')
 for role, content in logs.items():
-    (evidence / f'{role}.txt').write_text('\n'.join(line for line in content.splitlines() if line.startswith(('HW3_', '[Host]', '[Client] Flash:', '[Server] Rejected'))) + '\n',encoding='utf-8')
+    (evidence / f'{role}.txt').write_text('\n'.join(line for line in content.splitlines() if line.startswith(('HW3_', '[Relay]', '[Host]', '[Client] Flash:', '[Server] Rejected'))) + '\n',encoding='utf-8')
 print(json.dumps(report,indent=2))
 raise SystemExit(0 if all(checks.values()) else 1)

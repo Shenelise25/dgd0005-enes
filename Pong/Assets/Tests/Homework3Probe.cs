@@ -16,6 +16,19 @@ public class Homework3Probe : MonoBehaviour
     private bool captured;
     private bool serveRetried;
     private static readonly FieldInfo lastServeTime = typeof(PaddleController).GetField("_lastServeTime", BindingFlags.Instance | BindingFlags.NonPublic);
+    private void Start()
+    {
+        if (Environment.GetCommandLineArgs().Contains("-hw3-relay")) Invoke(nameof(ConnectRelay),.2f);
+    }
+    private void ConnectRelay()
+    {
+        string[] args = Environment.GetCommandLineArgs();
+        var hud = FindFirstObjectByType<ConnectionHud>();
+        int code = Array.IndexOf(args,"-hw3-relay-code");
+        if (code >= 0 && code + 1 < args.Length)
+            typeof(ConnectionHud).GetField("_joinCode",BindingFlags.Instance | BindingFlags.NonPublic).SetValue(hud,args[code+1]);
+        hud.SendMessage(code >= 0 ? "JoinViaRelay" : "HostViaRelay");
+    }
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     private static void Install()
     {
@@ -24,12 +37,21 @@ public class Homework3Probe : MonoBehaviour
     }
     private void Update()
     {
-        if (Time.time > 30) { Application.Quit(); return; }
+        bool relay = Environment.GetCommandLineArgs().Contains("-hw3-relay");
+        if (Time.time > (relay ? 60 : 30)) { Application.Quit(); return; }
         var manager = InstanceFinder.NetworkManager;
         var paddle = PaddleController.Local;
         var state = GameState.Instance;
         if (manager == null || paddle == null || state == null) return;
-        if (started < 0) { started = Time.time; keyboard = InputSystem.AddDevice<Keyboard>(); }
+        if (started < 0)
+        {
+            started = Time.time;
+            keyboard = InputSystem.AddDevice<Keyboard>();
+            // Keep this opt-in process test independent of desktop keyboard focus.
+            InputSystem.settings.backgroundBehavior = InputSettings.BackgroundBehavior.IgnoreFocus;
+            foreach (var device in InputSystem.devices.OfType<Keyboard>().ToArray())
+                if (device != keyboard) InputSystem.DisableDevice(device);
+        }
         float t = Time.time - started;
         bool host = manager.IsServerStarted;
         if (!host && !serveRetried && t > 4.2f)
@@ -78,7 +100,7 @@ public class Homework3Probe : MonoBehaviour
             ScreenCapture.CaptureScreenshot(args[shot+1]);
             captured = true;
         }
-        if (t > (host ? 18 : 14)) Application.Quit();
+        if (t > (host ? (relay ? 30 : 18) : 14)) Application.Quit();
     }
     private void Press(Key key)
     {
