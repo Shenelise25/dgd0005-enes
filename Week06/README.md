@@ -83,16 +83,21 @@ Results: [Relay checks](evidence/relay/test-summary.json), [host log evidence](e
 2. Both devices make outgoing connections, so neither player needs to configure router port forwarding.
 3. The extra delay comes from the longer network route through Relay and its forwarding, compared with loopback on one computer.
 
-| Connection card | Recorded value |
-| --- | --- |
-| Partner's name | My sibling; name not supplied |
-| Host / guest | Verified: local host LEFT and separate guest RIGHT. Planned physical run: me hosting, my sibling joining; then swap. |
-| Two networks | Current test: one computer / one connection. Planned physical run: home internet and phone hotspot; not performed yet. |
-| Guest Relay RTT | Verified same-computer Relay: 67–100 ms after initialization; 67 ms in the screenshot. Different-network RTT remains unmeasured. |
-| Guest loopback RTT | 0 ms in the captured graphical test; this is loopback, not a Relay measurement |
-| First try / fix line | Live Relay smoke test passed on its first run after linking the cloud project. Different-network attempt not performed. |
-| Play to 3 and swap hosts | Pending real partner test |
-| Guest screenshot with RTT and score | Captured for the live same-computer Relay test above. A different-network screenshot remains pending. |
+Manual connection card — reported test results, separate from the automated evidence above.
+
+| Connection card | Direction 1 | Direction 2 |
+| --- | --- | --- |
+| Partner | My sibling | My sibling |
+| Host / guest | I hosted (LEFT); my sibling joined (RIGHT) | My sibling hosted; I joined |
+| Project | My sibling cloned my repo and opened it in Unity 6000.3.2f1 | I cloned and opened my sibling's repo |
+| Two networks | My home Wi-Fi (fibre); my sibling's phone hotspot (4.5G) | My sibling's home Wi-Fi; my phone hotspot (4.5G) |
+| Guest Relay RTT | 57–75 ms | 77–82 ms |
+| Guest loopback RTT | 0–39 ms | 0–39 ms |
+| First try / fix line | Yes | No: I first entered the code in my own Pong project and received `[Relay] Join failed`. Fix: use the host's repo because the two projects use different Unity Cloud projects. Joining worked after I opened my sibling's repo. |
+| Match / role swap | We played to 3: 1 : 3; my sibling won | We swapped host roles; the second match's score was not supplied |
+| Guest screenshot with RTT and score | Not supplied | Not supplied |
+
+Neither direction required an IP address or a router configuration change. The reported physical-test screenshots have not been added; the Step 6 image remains evidence of the separate same-computer Relay test.
 
 I must use the same cloud project for each host's code: my partner runs my project when I host, and I run theirs when they host.
 A join code expires when its host stops.
@@ -125,7 +130,7 @@ The checks cover host LEFT/guest RIGHT, guest G isolation, targeted serve refusa
 
 I separately ran the live Unity Relay test described in Step 6: **7/7 checks passed**, including a real allocation, code-based guest join, RTT, ball and score replication. These observations supplement the **15/15 direct loopback checks**; they do not establish manual keyboard-focus behavior or a two-network partner match.
 
-I have not yet tested with my sibling across two networks, played that partner match to 3, or completed the separate-partner-repository swap. The connection card distinguishes measured results from the planned physical test. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
+The Step 7 card records the supplied manual two-network results, including the 1 : 3 match and the host-repository swap. These reported measurements are separate from the automated logs. The physical-test screenshots and the second match's score were not supplied. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
 
 ## Sources
 
