@@ -4,7 +4,7 @@
 
 I added listen-host controls, the G score-edit experiment, host teleport testing, a one-second per-player serve limit with targeted refusal, and Unity Relay host/join buttons. The project uses UnityTransport on port 7770; the previous Week05 host and disconnect fixes are included.
 
-My answers, evidence, setup instructions and connection card are in [Week06/README.md](Week06/README.md). The existing Pong Unity Cloud project is linked, and **7/7 live Relay checks** passed in addition to **15/15 direct loopback checks**. The Step 7 card separately records the reported two-network results with my sibling; its physical-test screenshots have not been supplied.
+My answers, evidence, setup instructions and connection card are in [Week06/README.md](Week06/README.md). The existing Pong Unity Cloud project is linked, and **7/7 live Relay checks** passed in addition to **15/15 direct loopback checks**. The Step 7 card separately records the reported two-network results with my sibling, with a Direction 1 guest screenshot showing LEFT 1 : 4 RIGHT and RTT 57 ms. Direction 2's screenshot remains pending.
 
 Open `Pong` in **Unity 6000.3.2f1**, let Package Manager finish, and open `Assets/Scenes/Pong.unity`. Use **Start Host** and **Start Client** for direct connections, or **Host via Relay** and **Join via Relay** for join-code connections. Use one untagged guest in Multiplayer Play Mode. C/X/T/G are intentional homework cheat demonstrations; the listen host can change authoritative state.
 

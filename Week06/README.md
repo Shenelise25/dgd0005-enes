@@ -91,13 +91,15 @@ Manual connection card — reported test results, separate from the automated ev
 | Host / guest | I hosted (LEFT); my sibling joined (RIGHT) | My sibling hosted; I joined |
 | Project | My sibling cloned my repo and opened it in Unity 6000.3.2f1 | I cloned and opened my sibling's repo |
 | Two networks | My home Wi-Fi (fibre); my sibling's phone hotspot (4.5G) | My sibling's home Wi-Fi; my phone hotspot (4.5G) |
-| Guest Relay RTT | 57–75 ms | 77–82 ms |
+| Guest Relay RTT | Reported range: 57–75 ms; screenshot: 57 ms | 77–82 ms |
 | Guest loopback RTT | 0–39 ms | 0–39 ms |
 | First try / fix line | Yes | No: I first entered the code in my own Pong project and received `[Relay] Join failed`. Fix: use the host's repo because the two projects use different Unity Cloud projects. Joining worked after I opened my sibling's repo. |
-| Match / role swap | We played to 3: 1 : 3; my sibling won | We swapped host roles; the second match's score was not supplied |
-| Guest screenshot with RTT and score | Not supplied | Not supplied |
+| Match / role swap | Final score: LEFT 1 : 4 RIGHT; my sibling (RIGHT) won | We swapped host roles; the second match's score was not supplied |
+| Guest screenshot with RTT and score | Attached below: ClientId 2, RTT 57 ms, LEFT 1 : 4 RIGHT, two paddles, tick rate 30 | Not supplied |
 
-Neither direction required an IP address or a router configuration change. The reported physical-test screenshots have not been added; the Step 6 image remains evidence of the separate same-computer Relay test.
+Neither direction required an IP address or a router configuration change. The screenshot supplied for Direction 1 is below. Its HUD shows the score and RTT; the network setup and RTT ranges are recorded from the manual report. The Step 6 image remains evidence of the separate same-computer Relay test.
+
+![Direction 1 guest window: ClientId 2, RTT 57 ms, LEFT 1 : 4 RIGHT](evidence/guest-relay-step7.png)
 
 I must use the same cloud project for each host's code: my partner runs my project when I host, and I run theirs when they host.
 A join code expires when its host stops.
@@ -130,7 +132,7 @@ The checks cover host LEFT/guest RIGHT, guest G isolation, targeted serve refusa
 
 I separately ran the live Unity Relay test described in Step 6: **7/7 checks passed**, including a real allocation, code-based guest join, RTT, ball and score replication. These observations supplement the **15/15 direct loopback checks**; they do not establish manual keyboard-focus behavior or a two-network partner match.
 
-The Step 7 card records the supplied manual two-network results, including the 1 : 3 match and the host-repository swap. These reported measurements are separate from the automated logs. The physical-test screenshots and the second match's score were not supplied. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
+The Step 7 card records the supplied manual two-network results, including the corrected 1 : 4 match and the host-repository swap. The attached Direction 1 screenshot shows RTT 57 ms and LEFT 1 : 4 RIGHT. These reported measurements are separate from the automated logs. The Direction 2 screenshot and match score were not supplied. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
 
 ## Sources
 
