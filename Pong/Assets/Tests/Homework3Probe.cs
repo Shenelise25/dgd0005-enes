@@ -1,0 +1,82 @@
+#if DEVELOPMENT_BUILD || UNITY_EDITOR
+using System;
+using System.Linq;
+using System.Reflection;
+using FishNet;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
+
+// Opt-in host/guest integration check; keyboard events exercise the actual cheat handlers.
+public class Homework3Probe : MonoBehaviour
+{
+    private Keyboard keyboard;
+    private float started = -1, nextSample;
+    private int stage;
+    private bool captured;
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+    private static void Install()
+    {
+        if (Environment.GetCommandLineArgs().Contains("-hw3-test"))
+            new GameObject("Homework3Probe").AddComponent<Homework3Probe>();
+    }
+    private void Update()
+    {
+        if (Time.time > 30) { Application.Quit(); return; }
+        var manager = InstanceFinder.NetworkManager;
+        var paddle = PaddleController.Local;
+        var state = GameState.Instance;
+        if (manager == null || paddle == null || state == null) return;
+        if (started < 0) { started = Time.time; keyboard = InputSystem.AddDevice<Keyboard>(); }
+        float t = Time.time - started;
+        bool host = manager.IsServerStarted;
+        InputSystem.QueueStateEvent(keyboard, host && t > 10 && t < 10.06f ? new KeyboardState(Key.W) : new KeyboardState());
+        float[] times = host ? new[] { 3.5f, 5f, 6f, 7f, 8f, 9f } : new[] { 2f, 3f, 4f, 5f, 6f };
+        if (stage < times.Length && t > times[stage])
+        {
+            if (host)
+            {
+                if (stage == 0) { paddle.RequestServe(); Debug.Log("HW3_ACTION host serve"); }
+                if (stage == 1) Press(Key.C);
+                if (stage == 2) Press(Key.T);
+                if (stage == 3) Press(Key.G);
+                if (stage == 4) Press(Key.X);
+                if (stage == 5)
+                {
+                    typeof(PaddleController).GetField("speed",BindingFlags.Instance | BindingFlags.NonPublic).SetValue(paddle,40f);
+                    Debug.Log("HW3_ACTION host speed=40");
+                }
+            }
+            else
+            {
+                if (stage == 0) Press(Key.G);
+                if (stage == 1) { paddle.RequestServe(); paddle.RequestServe(); Debug.Log("HW3_ACTION guest double serve"); }
+                if (stage == 2) Press(Key.T);
+                if (stage == 3) Press(Key.C);
+                if (stage == 4) Press(Key.X);
+            }
+            stage++;
+        }
+        if (Time.time > nextSample)
+        {
+            nextSample = Time.time + .05f;
+            foreach (var p in PaddleController.All)
+                Debug.Log(FormattableString.Invariant($"HW3_SAMPLE t={t:F3} host={host} id={p.OwnerId} side={p.Side.Value} x={p.transform.position.x:F3} z={p.transform.position.z:F3} score={state.LeftScore.Value} rejects={p.RejectedInputs} rtt={manager.TimeManager.RoundTripTime} ball={NetworkBall.Instance.InPlay.Value}"));
+        }
+        string[] args = Environment.GetCommandLineArgs();
+        int shot = Array.IndexOf(args,"-hw3-screenshot");
+        if (!host && !captured && t > 9 && shot >= 0 && shot + 1 < args.Length)
+        {
+            ScreenCapture.CaptureScreenshot(args[shot+1]);
+            captured = true;
+        }
+        if (t > (host ? 18 : 14)) Application.Quit();
+    }
+    private void Press(Key key)
+    {
+        InputSystem.QueueStateEvent(keyboard,new KeyboardState(key));
+        Debug.Log("HW3_ACTION " + key);
+    }
+    private void OnDestroy() { if (keyboard != null) InputSystem.RemoveDevice(keyboard); }
+}
+#endif

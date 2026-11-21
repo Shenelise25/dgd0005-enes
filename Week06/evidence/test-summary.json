@@ -1,0 +1,22 @@
+{
+  "passed": 13,
+  "total": 13,
+  "checks": {
+    "host_LEFT_guest_RIGHT": true,
+    "guest_G_does_not_change_host_score": true,
+    "guest_serve_refusal_is_targeted": true,
+    "other_player_can_serve": true,
+    "guest_T_does_not_change_server_position": true,
+    "guest_T_is_corrected": true,
+    "C_rejected_on_host_and_guest": true,
+    "host_T_replicated_to_guest": true,
+    "host_G_replicated_to_guest": true,
+    "all_cheat_keys_exercised": true,
+    "host_speed_40_exercised": true,
+    "no_runtime_errors": true,
+    "guest_screenshot_captured": true
+  },
+  "guest_RTT_ms": [
+    0
+  ]
+}

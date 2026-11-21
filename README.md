@@ -1,4 +1,14 @@
-# DGD0005 - Enes - Week 04 Pong
+# DGD0005 - Enes - Pong
+
+## Homework 3 — Week 06
+
+I added listen-host controls, the G score-edit experiment, host teleport testing, a one-second per-player serve limit with targeted refusal, and Unity Relay host/join buttons. The project uses UnityTransport on port 7770; the previous Week05 host and disconnect fixes are included.
+
+My answers, evidence, setup instructions and outstanding real-world checks are in [Week06/README.md](Week06/README.md). Relay needs a linked Unity Cloud project with Relay enabled. The two-network test and connection card require actual observations; they are not replaced by the automated loopback test.
+
+Open `Pong` in **Unity 6000.3.2f1**, let Package Manager finish, and open `Assets/Scenes/Pong.unity`. Use **Start Host** and **Start Client** for direct connections, or **Host via Relay** and **Join via Relay** for join-code connections. Use one untagged guest in Multiplayer Play Mode. C/X/T/G are intentional homework cheat demonstrations; the listen host can change authoritative state.
+
+The development-only host/guest check runs with `python tests/run_hw3.py` after building via `PongReplicateSetup.BuildPlayer`. Add `--screenshots` to capture the guest window after the host's score edit.
 
 I built this networked Pong project with Unity **6000.3.2f1**, the Universal 3D template, and FishNet's official **4.7.3** tag.
 

@@ -45,7 +45,9 @@ After one second the next request reaches the serving-rule check again; it can s
 | G | LEFT becomes 9 in both windows |
 | Speed 8 → 40 | Host paddle moves five times faster, replicated to guest |
 
-Guest screenshot after host G: not captured yet.
+I captured the guest after the host pressed G in the automated two-process test. LEFT is 9 and the host's teleported paddle is visible near the centre.
+
+![Guest window after host G, direct loopback test](evidence/guest-host-score.png)
 
 ## Step 4 — Packages and transport
 
@@ -75,17 +77,29 @@ Relay errors appear in the Console and on the initiating HUD; failures release t
 
 | Connection card | Recorded value |
 | --- | --- |
-| Partner's name | Not supplied |
+| Partner's name | My sibling; name not supplied |
 | Host / guest | Not tested across two networks |
 | Two networks | Not recorded |
 | Guest Relay RTT | Not measured |
-| Guest loopback RTT | Not measured for this homework |
+| Guest loopback RTT | 0 ms in the captured graphical test; this is loopback, not a Relay measurement |
 | First try / fix line | Not tested |
 | Play to 3 and swap hosts | Pending real partner test |
 | Guest screenshot with RTT and score | Not captured |
 
 I must use the same cloud project for each host's code: my partner runs my project when I host, and I run theirs when they host.
 A join code expires when its host stops.
+
+### My two-computer test procedure
+
+1. On both computers, clone this repository and open `Pong` with Unity 6000.3.2f1. Wait for package installation to finish.
+2. Link the host's Unity Cloud project in Project Settings → Services, enable Relay in the dashboard, and commit the public project ID so both copies use the same project. Never commit passwords or access tokens.
+3. Use home internet on one computer and a phone hotspot on the other. Two computers on the same home Wi-Fi do not meet the different-network requirement.
+4. First measure a direct loopback guest on the host computer using Start Host and Start Client at 127.0.0.1. Record its HUD RTT, then stop both.
+5. Select Host via Relay, send the displayed code to my sibling, and select Join via Relay on the other computer. Do not enter an IP address.
+6. Play to 3, record the guest RTT and take a guest screenshot showing RTT and score. Fill the card with actual network names and results.
+7. Swap hosting roles and repeat. The original partner-repository requirement needs a separate partner project; swapping two copies of my repo tests both host directions but does not prove that separate-repository requirement.
+
+If hosting fails immediately, check project linking, Relay enablement and internet access. If joining fails, check the code, whether the host is still running and that both copies use the same cloud project.
 
 ## Vocabulary and pointed-at line
 
@@ -95,7 +109,13 @@ A join code expires when its host stops.
 
 ## Verification
 
-Verification results will be recorded after running the checks. Expected behavior above is not a claim of a completed manual test.
+I built a Windows development player successfully in Unity 6000.3.2f1 with the installed Relay packages. The C# compiler reported no errors. The asset checker reported zero errors and three warnings in unchanged FishNet source files. I removed four stale missing-component references from the template's default volume profile.
+
+I ran `python tests/run_hw3.py --screenshots` with a real UnityTransport listen host and a separate guest process on the same computer. **13/13 automated checks passed**; [the machine-readable results](evidence/test-summary.json), [host evidence](evidence/host.txt) and [guest evidence](evidence/client.txt) are included.
+
+The checks cover host LEFT/guest RIGHT, guest G isolation, targeted serve refusal, the other player's serve, guest T correction, C rejection on both players, host T/G replication, exercising all four cheat keys, applying host speed 40, absence of detected runtime errors, and guest screenshot capture. Speed-40 movement and the X clamp were exercised but their exact movement ratio was not numerically asserted in this test.
+
+These are automated loopback observations, not manual keyboard-focus tests or an internet Relay test. I have not yet created a live Relay allocation, measured Relay RTT, tested with my sibling across two networks, played the required partner match to 3, or completed the separate-partner-repository swap. The connection card remains explicitly incomplete until those actions are performed. The supplied Week06 homework PDF is the requirement source; Week06 lecture notes were not supplied or present in the repository.
 
 ## Sources
 
